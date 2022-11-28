@@ -2,9 +2,10 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Home from './components/Home';
 import Organizers from './components/Organizers';
 import Problems from './components/Problems';
-import FAQs from './components/FAQs';
-import Photos from './components/Photos';
+import History from './components/History';
 import About from './components/About';
+import Mailing from './components/Mailing';
+import Shirts from './components/Shirts';
 import './App.css';
 
 function App() {
@@ -16,8 +17,9 @@ function App() {
           <Route path="/about" element={<About/>} />
           <Route path="/organizers" element={<Organizers/>} />
           <Route path="/problems" element={<Problems/>} />
-          <Route path="/faqs" element={<FAQs/>} />
-          <Route path="/photos" element={<Photos/>} />
+          <Route path="/mailing" element={<Mailing/>} />
+          <Route path="/shirts" element={<Shirts/>} />
+          <Route path="/history" element={<History/>} />
         </Routes>
       </Router>
 

@@ -1,22 +1,19 @@
 .App {
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 
 .navbar-link {
   margin: 5px;
   text-decoration: none;
-  color: black;
+  color: grey;
   display: inline-block;
   position: relative;
-  font-weight: bold;
-  font-size: large;
-  border-bottom: 1px solid transparent;
+  font-size: medium;
   transition: all ease-in-out 500ms;
 }
 
 .navbar-link:hover {
   color: black;
-  border-color: black;
 }

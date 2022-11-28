@@ -69,7 +69,7 @@ export default function App() {
             position={[0, 0, -50]}
             letterSpacing={-0.05}
             // font="/Ki-Medium.ttf"
-            fontSize={9}
+            fontSize={7}
             color="black"
             material-toneMapped={false}
             material-fog={false}

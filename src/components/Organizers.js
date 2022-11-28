@@ -8,7 +8,8 @@ function Organizers() {
   return (
     <div>
         <Bar/>
-        <h1>Organizers</h1>
+          <br/>
+        <h2>Organizers 📝 </h2>
         <br/>
         <Row xs={1} md={3} className="g-6">
       {Array.from({ length: 9 }).map((_, idx) => (

@@ -12,7 +12,7 @@ function Home() {
     if (show) {
       return (
         <Alert variant="success" onClose={() => setShow(false)} dismissible>
-          <Alert.Heading>Announcements</Alert.Heading>
+          <Alert.Heading>🚨REMINDER🚨</Alert.Heading>
           <p>
             Registrations are open!
             <br/>

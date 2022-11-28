@@ -1,13 +1,12 @@
 import React from 'react'
-import Bar from "../Bar"
 import Accordion from 'react-bootstrap/Accordion';
+import Card from 'react-bootstrap/Card';
 
 function FAQs() {
   return (
-    <div>
-        <Bar/>
-        <br/>
-        <h1>Frequently Asked Questions</h1>
+    <Card style={{margin: "50px"}}>
+      <Card.Header className="header">🤔 Frequently Asked Questions
+                </Card.Header>
         <Accordion defaultActiveKey="0" flush style={{margin: "40px"}}>
       <Accordion.Item eventKey="0">
         <Accordion.Header>Where is the competition held?</Accordion.Header>
@@ -40,7 +39,7 @@ function FAQs() {
         </Accordion.Body>
       </Accordion.Item>
     </Accordion>
-    </div>
+    </Card>
   )
 }
 
