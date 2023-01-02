@@ -27,7 +27,7 @@ function Photos() {
     <div>
         
 
-        <Carousel activeIndex={index} onSelect={handleSelect}>
+        <Carousel activeIndex={index} onSelect={handleSelect} style={{margin: "50px"}}>
       <Carousel.Item>
       
         <img
