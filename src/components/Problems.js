@@ -54,7 +54,7 @@ function Problems() {
         <br/>
         <h2>Problems 📚</h2>
         <br/>
-        <Table >
+        <Table style={{padding: "10px"}}>
       <thead>
         <tr>
           <th>Year</th>
@@ -66,7 +66,7 @@ function Problems() {
           
         </tr>
       </thead>
-      <tbody>
+      <tbody >
         <tr>
           <td>2022</td>
           <td>N/A</td> 

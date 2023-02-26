@@ -20,6 +20,9 @@ const Bar = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto">
+        <LinkContainer to="/">
+          <Nav.Link>Home</Nav.Link>
+          </LinkContainer>
             <LinkContainer to="/about">
           <Nav.Link>About</Nav.Link>
           </LinkContainer>
@@ -30,9 +33,18 @@ const Bar = () => {
           <LinkContainer to="/problems">
           <Nav.Link>Problems</Nav.Link>
           </LinkContainer>
-          <LinkContainer to="/history">
-          <Nav.Link>History</Nav.Link>
-          </LinkContainer>
+          <NavDropdown title="History">
+            <NavDropdown.Item>
+            <Link className="navbar-link" to="/history">History</Link>
+            </NavDropdown.Item>
+            <NavDropdown.Item>
+            <Link className="navbar-link" to="/past-organizers">Past Organizers</Link>
+            </NavDropdown.Item>
+            <NavDropdown.Item>
+            <Link className="navbar-link" to="/past-contests">Past Contests</Link>
+            </NavDropdown.Item>
+           
+          </NavDropdown>
           <NavDropdown title="Extras">
             <NavDropdown.Item>
             <Link className="navbar-link" to="/mailing">Mailing List</Link>

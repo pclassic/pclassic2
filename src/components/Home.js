@@ -5,9 +5,9 @@ import Alert from 'react-bootstrap/Alert';
 import Button from 'react-bootstrap/Button';
 
 function Home() {
-
+  const [show, setShow] = useState(true);
   function AlertDismissibleExample() {
-    const [show, setShow] = useState(true);
+    
   
     if (show) {
       return (
@@ -30,7 +30,7 @@ function Home() {
         <Bar/>
         <AlertDismissibleExample />
 
-        <HomeScreen/>
+        <HomeScreen show= {show}/>
         
     </div>
   )

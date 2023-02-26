@@ -9,6 +9,7 @@ function History() {
         <Bar/>
         <br/>
         <h2>History 📜</h2>
+        <Photos/>
         <Card style={{margin: "10px 50px "}}> 
             <Card.Text style={{padding:"10px"}}>
         In 1998, PClassic began as an annual programming contest for high schoolers, put on each spring by the Dining Philosophers, Penn's computer science student group.
@@ -21,7 +22,7 @@ function History() {
         </Card.Text>
         </Card>
         
-        <Photos/>
+        
         
     </div>
   )

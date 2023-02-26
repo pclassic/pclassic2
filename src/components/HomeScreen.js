@@ -3,11 +3,11 @@ import { useRef, Suspense} from 'react'
 import { Canvas, useFrame, useThree} from '@react-three/fiber'
 import { MarchingCubes, MarchingCube, Environment, Sky, Bounds } from '@react-three/drei'
 import { Physics, RigidBody, BallCollider } from '@react-three/rapier'
-import { Text } from '@react-three/drei'
 const vec = new THREE.Vector3()
 
 function MetaBall({ color, ...props }) {
   const api = useRef()
+
   useFrame((state, delta) => {
     api.current.applyImpulse(
       vec
@@ -16,6 +16,8 @@ function MetaBall({ color, ...props }) {
         .multiplyScalar(delta * -0.05),
     )
   })
+  
+
   return (
     <RigidBody ref={api} colliders={false} linearDamping={4} angularDamping={0.95} {...props}>
       <MarchingCube strength={0.35} subtract={6} color={color} />
@@ -26,7 +28,9 @@ function MetaBall({ color, ...props }) {
 
 function Pointer() {
   const ref = useRef()
-  useFrame(({ mouse, viewport }) => {
+  
+
+  useFrame(({ mouse, viewport}) => {
     const { width, height } = viewport.getCurrentViewport()
     vec.set(mouse.x * (width / 2), mouse.y * (height / 2), 0)
     ref.current.setNextKinematicTranslation(vec)
@@ -39,9 +43,14 @@ function Pointer() {
   )
 }
 
-export default function App() {
+export default function App({show}) {
+
+
   return (
     <>
+    <div style={{position: "absolute", zIndex: "1", left: "20%", bottom: show ? "30%" : "45%"}}>
+        <h1 style={{fontWeight: "bolder", fontSize: "250px"}}>PClassic</h1>
+      </div>
     <Canvas style={{
         backgroundColor: '#111a21',
         width: '100vw',
@@ -65,19 +74,7 @@ export default function App() {
       <Sky />
       <Environment preset="city" />
       <Suspense>
-      <Text
-            position={[0, 0, -50]}
-            letterSpacing={-0.05}
-            // font="/Ki-Medium.ttf"
-            fontSize={7}
-            color="black"
-            material-toneMapped={false}
-            material-fog={false}
-            anchorX="center"
-            anchorY="middle">
-            {`PCLASSIC`}
-          </Text>
-
+      
       </Suspense>
       {/* Zoom to fit a 1/1/1 box to match the marching cubes */}
       <Bounds fit clip observe margin={1}>
