@@ -14,9 +14,7 @@ function Home() {
         <Alert variant="success" onClose={() => setShow(false)} dismissible>
           <Alert.Heading>🚨REMINDER🚨</Alert.Heading>
           <p>
-            Registrations are open!
-            <br/>
-            PClassic's Upcoming Competition is on November 19, 2022.
+            PClassic's Upcoming Competition is on April 22, 2023.
           </p>
         </Alert>
       );
