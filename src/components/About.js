@@ -6,6 +6,7 @@ import { OrbitControls, Stats, Text } from '@react-three/drei';
 import Card from 'react-bootstrap/Card';
 import { Row, Col } from 'react-bootstrap';
 import Info from '../pdfs/info.pdf';
+import Waiver from '../pdfs/waiver.pdf';
 import './About.css';
 import FadeInSection from './FadeInSection';
 import FAQs from './FAQs';
@@ -31,7 +32,9 @@ function About() {
         <Card.Header className="header">🗓️ PClassic Spring 2023 Details</Card.Header>
         <Card.Text>Contest Date: Saturday, April 22 2023</Card.Text>
         <Card.Text>Location: University of Pennsylvania Engineering Quad</Card.Text>
-        <Card.Text>Links will be posted very soon!</Card.Text>
+        <Card.Text>
+          <a href="https://forms.gle/5gLkWEbTeAeTFAnE8">Sign Up</a>
+        </Card.Text>
       </Card>
       <FadeInSection key={0}>
         <Card style={{ margin: '50px' }}>
@@ -49,6 +52,21 @@ function About() {
       </FadeInSection>
 
       <FadeInSection key={1}>
+        <Card style={{ margin: '50px' }}>
+          <Card.Header className="header">👋 Waiver</Card.Header>
+
+          <Row>
+            {/* off set will middle the col */}
+            <Col>
+              <iframe style={{ width: '80%', height: '800px' }} src={Waiver}>
+                {' '}
+              </iframe>
+            </Col>
+          </Row>
+        </Card>
+      </FadeInSection>
+
+      <FadeInSection key={2}>
         <FAQs />
       </FadeInSection>
     </div>

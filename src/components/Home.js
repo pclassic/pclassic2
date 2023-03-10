@@ -1,37 +1,35 @@
-import React, {useEffect, useState} from 'react'
-import Bar from "../Bar"
-import HomeScreen from "./HomeScreen"
+import React, { useEffect, useState } from 'react';
+import Bar from '../Bar';
+import HomeScreen from './HomeScreen';
 import Alert from 'react-bootstrap/Alert';
 import Button from 'react-bootstrap/Button';
 
 function Home() {
   const [show, setShow] = useState(true);
   function AlertDismissibleExample() {
-    
-  
     if (show) {
       return (
         <Alert variant="success" onClose={() => setShow(false)} dismissible>
           <Alert.Heading>🚨REMINDER🚨</Alert.Heading>
+          <p>PClassic's Upcoming Competition is on April 22, 2023.</p>
+          <p>Please take a look at the new rules in the About tab!</p>
           <p>
-            PClassic's Upcoming Competition is on April 22, 2023.
+            <a href="https://forms.gle/5gLkWEbTeAeTFAnE8">Sign Up</a>
           </p>
         </Alert>
       );
     }
-    return <></>
+    return <></>;
   }
-  
 
   return (
     <div>
-        <Bar/>
-        <AlertDismissibleExample />
+      <Bar />
+      <AlertDismissibleExample />
 
-        <HomeScreen show= {show}/>
-        
+      <HomeScreen show={show} />
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;
