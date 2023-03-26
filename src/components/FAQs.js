@@ -11,8 +11,10 @@ function FAQs() {
       <Accordion.Item eventKey="0">
         <Accordion.Header>Where is the competition held?</Accordion.Header>
         <Accordion.Body>
-        The Towne Building of Penn Engineering, located at 220 S. 33rd St, Philadelphia, PA.
-        Note: check-in/registration is in the adjacent (and connected) Levine Hall, located at 3330 Walnut St.
+        The PClassic Competition takes place at 107 Towne Bldg, Philadelphia, PA 19104 in 
+        Towne Building at the University of Pennsylvania. The Towne Building is the building in the 
+        Engineering Quad closest to the Schuykill River. To get to the Engineering Quad and Towne Building, 
+        you can take Exit 346A to South Street from  I-76.
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="1">
