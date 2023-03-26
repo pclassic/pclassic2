@@ -1,7 +1,7 @@
 import * as THREE from 'three'
 import { useRef, Suspense} from 'react'
 import { Canvas, useFrame, useThree} from '@react-three/fiber'
-import { MarchingCubes, MarchingCube, Environment, Sky, Bounds } from '@react-three/drei'
+import { MarchingCubes, MarchingCube, Environment, Sky, Bounds, Text } from '@react-three/drei'
 import { Physics, RigidBody, BallCollider } from '@react-three/rapier'
 const vec = new THREE.Vector3()
 
@@ -48,9 +48,9 @@ export default function App({show}) {
 
   return (
     <>
-    <div style={{position: "absolute", zIndex: "1", left: "20%", bottom: show ? "10%" : "30%"}}>
+    {/* <div style={{position: "absolute", zIndex: "1", left: "20%", bottom: show ? "10%" : "30%"}}>
         <h1 style={{fontWeight: "bolder", fontSize: "250px"}}>PClassic</h1>
-      </div>
+      </div> */}
     <Canvas style={{
         backgroundColor: '#111a21',
         width: '100vw',
@@ -74,7 +74,18 @@ export default function App({show}) {
       <Sky />
       <Environment preset="city" />
       <Suspense>
-      
+      <Text
+            position={[0, -2.5, -50]}
+            letterSpacing={-0.05}
+            font="/Ki-Medium.ttf"
+            fontSize={10}
+            color="black"
+            material-toneMapped={false}
+            material-fog={false}
+            anchorX="center"
+            anchorY="middle">
+            {`PClassic`}
+          </Text>
       </Suspense>
       {/* Zoom to fit a 1/1/1 box to match the marching cubes */}
       <Bounds fit clip observe margin={1}>
