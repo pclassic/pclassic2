@@ -48,7 +48,7 @@ export default function App({show}) {
 
   return (
     <>
-    <div style={{position: "absolute", zIndex: "1", left: "20%", bottom: show ? "30%" : "45%"}}>
+    <div style={{position: "absolute", zIndex: "1", left: "20%", bottom: show ? "10%" : "30%"}}>
         <h1 style={{fontWeight: "bolder", fontSize: "250px"}}>PClassic</h1>
       </div>
     <Canvas style={{
