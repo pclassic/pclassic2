@@ -32,6 +32,12 @@ function FAQs() {
         thinking about bringing more than 6 teams, please email us so we can discuss it.
         </Accordion.Body>
       </Accordion.Item>
+      <Accordion.Item eventKey="3">
+        <Accordion.Header>Will there be food?</Accordion.Header>
+        <Accordion.Body>
+          Yes! We will provide free lunch and offer concessions!
+        </Accordion.Body>
+      </Accordion.Item>
     </Accordion>
     </Card>
   )
