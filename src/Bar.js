@@ -3,8 +3,8 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav"
 import NavDropdown from "react-bootstrap/NavDropdown"
 import Container from "react-bootstrap/Container";
-import {Link} from "react-router-dom";
-import {LinkContainer} from 'react-router-bootstrap'
+import { Link } from "react-router-dom";
+import { LinkContainer } from 'react-router-bootstrap';
 import "./App.css"
 
 const Bar = () => {
@@ -27,11 +27,13 @@ const Bar = () => {
           <Nav.Link>About</Nav.Link>
           </LinkContainer>
           <LinkContainer to="/organizers">
-          
           <Nav.Link>Organizers</Nav.Link>
           </LinkContainer>
           <LinkContainer to="/problems">
           <Nav.Link>Problems</Nav.Link>
+          </LinkContainer>
+          <LinkContainer to="/parsing">
+          <Nav.Link>Parsing</Nav.Link>
           </LinkContainer>
           <NavDropdown title="History">
             <NavDropdown.Item>
