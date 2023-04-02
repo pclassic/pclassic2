@@ -8,13 +8,13 @@ function Parsing() {
         <Bar />
         <br />
         <h1>Parsing </h1>
-        <a href="q0.class">Class File</a>
+        <a href="q0parsing.class">Class File</a>
         <br />
-        <a href="q0.cpp">C++ File</a>
+        <a href="q0parsing.cpp">C++ File</a>
         <br />
-        <a href="q0.java">Java File</a>
+        <a href="q0parsing.java">Java File</a>
         <br />
-        <a href="q0.py">Python File</a>
+        <a href="q0parsing.py">Python File</a>
     </div>
   )
 }

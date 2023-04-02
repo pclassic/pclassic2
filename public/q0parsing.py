@@ -60,6 +60,9 @@ def read_multitest():
 
 
 if __name__ == "__main__":
+    # you do not have to worry about this
+    # this is just an "interactive" part of running the code
+    # it allows you to test different parsers
     print("1: read string \n \
         2: read single integer \n \
         3: Read multiple (3) integers \n \
