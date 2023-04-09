@@ -104,7 +104,7 @@ function Organizers() {
     <div>
       <Bar />
       <br />
-      <h2>Organizers 📝 </h2>
+      <h2>Organizers 👋 </h2>
       <Row xs={1} md={3} className="g-6" style={{ padding: '10px 90px' }}>
         {organizers.map((organizer) => (
           <Col>

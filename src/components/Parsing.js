@@ -7,7 +7,7 @@ function Parsing() {
     <div>
       <Bar />
       <br />
-      <h1>Parsing 📝</h1>
+      <h2>Parsing 📝</h2>
       <br />
       <h6>
         Parsing is actually very easy! Below are files tutorials you can peek at to learn how to
