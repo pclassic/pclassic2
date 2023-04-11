@@ -118,7 +118,7 @@ function PastContests() {
                 <F2019 />
               </Tab.Pane>
               <Tab.Pane eventKey="#F2021">
-                <F2019 />
+                <F2021 />
               </Tab.Pane>
               <Tab.Pane eventKey="#F2022">
                 <F2022 />
