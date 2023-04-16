@@ -17,7 +17,7 @@ function About() {
       <Bar />
       <br />
 
-      <Card className="fade-in" style={{ margin: '50px' }}>
+      <Card className="fade-in" style={{ margin: '50px 120px' }}>
         <Card.Header className="header">👋 Who are we?</Card.Header>
         <Card.Text style={{ padding: '20px' }}>
           The Philadelphia Classic (PClassic) is a semesterly programming competition for high
@@ -28,7 +28,7 @@ function About() {
         </Card.Text>
       </Card>
 
-      <Card className="fade-in2" style={{ margin: '50px' }}>
+      <Card className="fade-in2" style={{ margin: '50px 120px' }}>
         <Card.Header className="header">🗓️ PClassic Spring 2023 Details</Card.Header>
         <Card.Text>Contest Date: Saturday, April 22 2023</Card.Text>
         <Card.Text>Location: University of Pennsylvania Engineering Quad</Card.Text>
@@ -37,13 +37,13 @@ function About() {
         </Card.Text>
       </Card>
       <FadeInSection key={0}>
-        <Card style={{ margin: '50px' }}>
+        <Card style={{ margin: '50px 120px' }}>
           <Card.Header className="header">📐 Rules and Guidelines</Card.Header>
 
           <Row>
             {/* off set will middle the col */}
             <Col>
-              <iframe style={{ width: '80%', height: '800px' }} src={Info}>
+              <iframe style={{ width: '100%', height: '600px' }} src={Info}>
                 {' '}
               </iframe>
             </Col>
@@ -52,13 +52,13 @@ function About() {
       </FadeInSection>
 
       <FadeInSection key={1}>
-        <Card style={{ margin: '50px' }}>
+        <Card style={{ margin: '50px 120px' }}>
           <Card.Header className="header">👋 Waiver</Card.Header>
 
           <Row>
             {/* off set will middle the col */}
             <Col>
-              <iframe style={{ width: '80%', height: '800px' }} src={Waiver}>
+              <iframe style={{ width: '100%', height: '600px' }} src={Waiver}>
                 {' '}
               </iframe>
             </Col>

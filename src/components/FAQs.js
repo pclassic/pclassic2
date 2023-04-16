@@ -4,17 +4,15 @@ import Card from 'react-bootstrap/Card';
 
 function FAQs() {
   return (
-    <Card style={{margin: "50px"}}>
+    <Card style={{margin: '50px 120px'}}>
       <Card.Header className="header">🤔 Frequently Asked Questions
                 </Card.Header>
         <Accordion defaultActiveKey="0" flush style={{margin: "40px"}}>
       <Accordion.Item eventKey="0">
         <Accordion.Header>Where is the competition held?</Accordion.Header>
         <Accordion.Body>
-        The PClassic Competition takes place at 107 Towne Bldg, Philadelphia, PA 19104 in 
-        Towne Building at the University of Pennsylvania. The Towne Building is the building in the 
-        Engineering Quad closest to the Schuykill River. To get to the Engineering Quad and Towne Building, 
-        you can take Exit 346A to South Street from  I-76.
+        The PClassic Competition takes place at 107 Towne Bldg, Philadelphia, PA 19104. To enter, come 
+        to Levine Hall.
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="1">
