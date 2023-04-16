@@ -54,7 +54,7 @@ function Problems() {
       <br />
       <h2>Problems 📚</h2>
       <br />
-      <Table style={{ padding: '10px' }}>
+      <Table style={{ padding: '100px' }}>
         <thead>
           <tr>
             <th>Year</th>
