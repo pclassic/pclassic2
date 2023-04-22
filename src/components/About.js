@@ -1,8 +1,5 @@
 import React, { useState } from 'react';
 import Bar from '../Bar';
-import person from '../images/person.jpg';
-import { Canvas } from '@react-three/fiber';
-import { OrbitControls, Stats, Text } from '@react-three/drei';
 import Card from 'react-bootstrap/Card';
 import { Row, Col } from 'react-bootstrap';
 import Info from '../pdfs/info.pdf';
@@ -10,6 +7,10 @@ import Waiver from '../pdfs/waiver.pdf';
 import './About.css';
 import FadeInSection from './FadeInSection';
 import FAQs from './FAQs';
+import Floor1 from './images/EngineeringMapF1.png';
+import Floor2 from './images/EngineeringMapF2.png';
+import Floor3 from './images/EngineeringMapF3.png';
+import Carousel from 'react-bootstrap/Carousel';
 
 function About() {
   return (
@@ -36,6 +37,7 @@ function About() {
           <a href="https://forms.gle/5gLkWEbTeAeTFAnE8">Sign Up</a>
         </Card.Text>
       </Card>
+
       <FadeInSection key={0}>
         <Card style={{ margin: '50px 120px' }}>
           <Card.Header className="header">📐 Rules and Guidelines</Card.Header>
@@ -65,6 +67,44 @@ function About() {
           </Row>
         </Card>
       </FadeInSection>
+
+      <FadeInSection key={3}>
+        <Card style={{margin: '50px 120px'}}>
+          <Card.Header className="header"> 🗺 Maps</Card.Header>
+          <Carousel width="600px" slide={false} variant="dark">
+          <Carousel.Item>
+        <img
+          src={Floor1}
+          alt="First slide"
+        />
+        <Carousel.Caption>
+          <h3>Floor 1</h3>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          src={Floor2}
+          alt="Second slide"
+        />
+
+        <Carousel.Caption>
+          <h3>Floor 2</h3>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          src={Floor3}
+          alt="Third slide"
+        />
+
+        <Carousel.Caption>
+          <h3>Floor 3</h3>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+        </Card>
+      </FadeInSection>
+
 
       <FadeInSection key={2}>
         <FAQs />
