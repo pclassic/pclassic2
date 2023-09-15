@@ -56,30 +56,13 @@ export default function App({show}) {
         width: '100vw',
         height: '100vh',
      }} camera={{ position: [0, 0, 5], fov: 25 }}>
-      <ambientLight intensity={1} />
-      <directionalLight intensity={1} />
-      <directionalLight intensity={10} position={[-10, -10, -10]} color="purple" />
-      <Physics gravity={[0, 2, 0]}>
-        <MarchingCubes resolution={64} maxPolyCount={20000} enableUvs={false} enableColors>
-          <meshStandardMaterial vertexColors roughness={0} />
-          <MetaBall color="red" position={[1, 1, 0.5]} />
-          <MetaBall color="blue" position={[-1, -1, -0.5]} />
-          <MetaBall color="green" position={[2, 2, 0.5]} />
-          <MetaBall color="orange" position={[-2, -2, -0.5]} />
-          <MetaBall color="hotpink" position={[3, 3, 0.5]} />
-          <MetaBall color="aquamarine" position={[-3, -3, -0.5]} />
-          <Pointer />
-        </MarchingCubes>
-      </Physics>
-      <Sky />
-      <Environment preset="city" />
       <Suspense>
       <Text
             position={[0, -2.5, -50]}
             letterSpacing={-0.05}
             font="/Ki-Medium.ttf"
             fontSize={10}
-            color="black"
+            color="white"
             material-toneMapped={false}
             material-fog={false}
             anchorX="center"
