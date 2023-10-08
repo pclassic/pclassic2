@@ -11,11 +11,11 @@ function Home() {
       return (
         <Alert variant="success" onClose={() => setShow(false)} dismissible>
           <Alert.Heading>🚨REMINDER🚨</Alert.Heading>
-          <p>PClassic's Upcoming Competition is on April 22, 2023.</p>
-          <p>Please take a look at the new rules in the About tab!</p>
-          <p>
+          <p>PClassic's Upcoming Competition is on December 2, 2023.</p>
+          <p>Sign-ups will be released shortly!</p>
+          {/* <p>
             <a href="https://forms.gle/5gLkWEbTeAeTFAnE8">Sign Up</a>
-          </p>
+          </p> */}
         </Alert>
       );
     }

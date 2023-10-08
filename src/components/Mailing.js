@@ -14,7 +14,6 @@ function Mailing() {
         Join 🙌 for PClassic updates!
         <br /> Dates and registration links will be sent when available.
         <br />
-        For more, also follow us on Twitter 🐦 for updates.
       </p>
     </div>
   );

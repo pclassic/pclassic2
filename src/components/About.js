@@ -30,8 +30,8 @@ function About() {
       </Card>
 
       <Card className="fade-in2" style={{ margin: '50px 120px' }}>
-        <Card.Header className="header">🗓️ PClassic Spring 2023 Details</Card.Header>
-        <Card.Text>Contest Date: Saturday, April 22 2023</Card.Text>
+        <Card.Header className="header">🗓️ PClassic Fall 2023 Details</Card.Header>
+        <Card.Text>Contest Date: Saturday, December 2 2023</Card.Text>
         <Card.Text>Location: University of Pennsylvania Engineering Quad</Card.Text>
         <Card.Text>
           <a href="https://forms.gle/5gLkWEbTeAeTFAnE8">Sign Up</a>

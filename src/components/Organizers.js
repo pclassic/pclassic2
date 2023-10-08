@@ -20,41 +20,49 @@ import denise from './images/denise.jpg';
 
 function Organizers() {
   const organizers = [
-    {
-      photo: aaron,
-      name: 'Aaron',
-      description:
-        'Aaron Mei is a CIS major at Penn who enjoys playing video games and thinking about algorithms.',
-    },
+
     // { // He's not doing PClassic this semester, but we can put him on the Past Organizers page for Fall 2022 if we're doing that
     //   photo: ben,
     //   name: 'Benjamin',
     //   description:
     //     'Benjamin Le is a sophomore studying computer science in SEAS. He enjoys learning mathematics and solving interesting problems. In his free time, he likes to read and play video games.',
     // },
+    // {
+    //   photo: brian,
+    //   name: 'Brian',
+    //   description:
+    //     "Brian Chen is a master's student studying computer science. He studied computational biology and computer science as an undergraduate. He enjoys playing basketball, solving Rubik's cubes, and learning about languages.",
+    // },
     {
-      photo: brian,
-      name: 'Brian',
+      photo: ishaan,
+      name: 'Ishaan',
       description:
-        "Brian Chen is a master's student studying computer science. He studied computational biology and computer science as an undergraduate. He enjoys playing basketball, solving Rubik's cubes, and learning about languages.",
+        "[CO-LEAD] Ishaan is a fourth year student Computer Science. In his free time, he likes teaching, reading, and following chess.",
     },
     {
       photo: ethan,
       name: 'Ethan',
       description:
-        'Ethan Chee is a junior studying CS. In his free time he likes to rock climb, run and play video games.',
+        '[CO-LEAD] Ethan Chee is a senior studying CS. In his free time he likes to rock climb, run and play video games.',
     },
     {
-      photo: michelle,
-      name: 'Michelle',
+      photo: steven,
+      name: 'Grace',
       description:
-        'Michelle Chang is a sophomore studying CS. She likes web development, K-Pop dancing, and running.',
+        "Grace Lee is Grace Lee.",
     },
+    // {
+    //   photo: michelle,
+    //   name: 'Michelle',
+    //   description:
+    //     'Michelle Chang is a sophomore studying CS. She likes web development, K-Pop dancing, and running.',
+    // },
+    
     {
-      photo: ishaan,
-      name: 'Ishaan',
+      photo: aaron,
+      name: 'Aaron',
       description:
-        "Ishaan is a third year student at the University of Pennsylvania studying Computer Science and Math. He is the current co-lead of the PClassic club, and this is his fourth semester on the club. In high school, Ishaan was on his school's computer science team who competed in PClassic! After a fun experience at the competition, he decided that he wanted to be a part of the club. Outside of PClassic, Ishaan is super passionate about teaching and dedicates much of his time to Penn's Discrete Math class, CIS1600, where he is a TA. Outside of all that, Ishaan enjoys spending his (little) free time solving puzzles, listening to/playing music, and following chess.",
+        'Aaron Mei is a CIS major at Penn who enjoys playing video games and thinking about algorithms.',
     },
     {
       photo: nick,
@@ -75,29 +83,35 @@ function Organizers() {
         "Steven Chang is a freshman studying computer science from Myanmar. In high school, he participated in math olympiads and volunteering activities. Some of his hobbies are watching K-Dramas, playing chess, and solving the Rubik's cube.",
     },
     {
-      photo: tien,
-      name: 'Tien',
+      photo: steven,
+      name: 'Kevin',
       description:
-        'Tien Pham is a senior enrolled in the Penn Computer and Cognitive Science: Artificial Intelligence program. He moved from Vietnam at the age of five and attended Emmaus High School. Throughout his four years there, he participated in a multitude of programming contests. ',
+        "Kevin Liu is Kevin Liu.",
     },
-    {
-      photo: denise,
-      name: 'Denise',
-      description:
-        'Denise is a junior studying computer science with a minor in fine arts. She is from Long Island, New York. In her free time, she enjoys painting and doing escape rooms.',
-    },
-    {
-      photo: Aneesh,
-      name: 'Aneesh',
-      description:
-        'Aneesh Boreda is a junior studying Computer Science and Finance. He participated in PClassic when he was in high school, and still enjoys solving interesting programming problems. He is also a member of the Penn Electric Racing team, and likes to play basketball and watch Formula 1 in his free time.',
-    },
-    {
-      photo: ziwen,
-      name: 'Ziwen',
-      description:
-        "Ziwen Hou is an ex-leader of PClassic. He is an ex undergraduate now Master's student studying Computer Science. As stated in previous description iterations, he likes to try new things! After getting destroyed by his friends in Smash Ultimate, he bought the game, learned it, and is now better than most of his friends. He also likes playing other videos games, ranging MOBA to single player action adventure to visual novels to mobile. Also he started learning to play chess (but is still really bad :/) (there are some cracked chess players in this club though, try to guess who).",
-    },
+    // {
+    //   photo: tien,
+    //   name: 'Tien',
+    //   description:
+    //     'Tien Pham is a senior enrolled in the Penn Computer and Cognitive Science: Artificial Intelligence program. He moved from Vietnam at the age of five and attended Emmaus High School. Throughout his four years there, he participated in a multitude of programming contests. ',
+    // },
+    // {
+    //   photo: denise,
+    //   name: 'Denise',
+    //   description:
+    //     'Denise is a junior studying computer science with a minor in fine arts. She is from Long Island, New York. In her free time, she enjoys painting and doing escape rooms.',
+    // },
+    // {
+    //   photo: Aneesh,
+    //   name: 'Aneesh',
+    //   description:
+    //     'Aneesh Boreda is a junior studying Computer Science and Finance. He participated in PClassic when he was in high school, and still enjoys solving interesting programming problems. He is also a member of the Penn Electric Racing team, and likes to play basketball and watch Formula 1 in his free time.',
+    // },
+    // {
+    //   photo: ziwen,
+    //   name: 'Ziwen',
+    //   description:
+    //     "Ziwen Hou is an ex-leader of PClassic. He is an ex undergraduate now Master's student studying Computer Science. As stated in previous description iterations, he likes to try new things! After getting destroyed by his friends in Smash Ultimate, he bought the game, learned it, and is now better than most of his friends. He also likes playing other videos games, ranging MOBA to single player action adventure to visual novels to mobile. Also he started learning to play chess (but is still really bad :/) (there are some cracked chess players in this club though, try to guess who).",
+    // },
   ];
 
   return (
