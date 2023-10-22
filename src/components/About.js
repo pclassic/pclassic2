@@ -44,12 +44,12 @@ function About() {
 
           <Row>
             {/* off set will middle the col */}
-            {/* <Col>
+            <Col>
               <iframe style={{ width: '100%', height: '600px' }} src={Info}>
                 {' '}
               </iframe>
-            </Col> */}
-            <p> Will be released soon! </p>
+            </Col>
+            {/* <p> Will be released soon! </p> */}
           </Row>
         </Card>
       </FadeInSection>
@@ -60,12 +60,12 @@ function About() {
 
           <Row>
             {/* off set will middle the col */}
-            {/* <Col>
+            <Col>
               <iframe style={{ width: '100%', height: '600px' }} src={Waiver}>
                 {' '}
               </iframe>
-            </Col> */}
-            <p> Will be released soon!</p>
+            </Col>
+            {/* <p> Will be released soon!</p> */}
           </Row>
         </Card>
       </FadeInSection>
