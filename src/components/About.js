@@ -36,7 +36,7 @@ function About() {
         <Card.Text>Contest Date: Saturday, December 2 2023</Card.Text>
         <Card.Text>Location: University of Pennsylvania Engineering Quad</Card.Text>
         <Card.Text>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdsKTKwYLb-ekhedupwwi8hPE_TpUtvAD55KtdP_FwlzGHCKQ/viewform?usp=sf_link">Sign Up</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdsKTKwYLb-ekhedupwwi8hPE_TpUtvAD55KtdP_FwlzGHCKQ/viewform?usp=sharing">Sign Up</a>
         </Card.Text>
       </Card>
 

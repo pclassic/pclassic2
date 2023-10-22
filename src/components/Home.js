@@ -13,7 +13,7 @@ function Home() {
           <Alert.Heading>🚨REMINDER🚨</Alert.Heading>
           <p>PClassic's Upcoming Competition is on December 2, 2023.</p>
           /* <p>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdsKTKwYLb-ekhedupwwi8hPE_TpUtvAD55KtdP_FwlzGHCKQ/viewform?usp=sf_link">Sign Up</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdsKTKwYLb-ekhedupwwi8hPE_TpUtvAD55KtdP_FwlzGHCKQ/viewform?usp=sharing">Sign Up</a>
           </p> */
         </Alert>
       );
