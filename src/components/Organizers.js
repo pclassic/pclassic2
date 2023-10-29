@@ -68,13 +68,13 @@ function Organizers() {
       photo: nick,
       name: 'Nick',
       description:
-        'Nicholas Eiffert is a sophomore studying mathematics and computer science in CAS. He went to Bordentown Regional High School. He is a TA for a data structures and algorithms course at Penn. He likes doing competitive programming, going to concerts, and eating late-night ramen.',
+        'Nicholas Eiffert is a junior studying mathematics and computer science in CAS. He went to Bordentown Regional High School. He is a TA for a data structures and algorithms course at Penn. He likes doing competitive programming, going to concerts, and eating late-night ramen.',
     },
     {
       photo: kyle,
       name: 'Kyle',
       description:
-        'Kyle is a junior studying computer science at UPenn. Hailing from Connecticut, he enjoys basketball, skiing, io games, and sometimes computer science. He also wishes you luck on your coding endeavors!',
+        'Kyle is a senior studying computer science at UPenn. Hailing from Connecticut, he enjoys basketball, skiing, io games, and sometimes computer science. He also wishes you luck on your coding endeavors!',
     },
     {
       photo: steven,
@@ -88,30 +88,12 @@ function Organizers() {
       description:
         "Kevin Liu is Kevin Liu.",
     },
-    // {
-    //   photo: tien,
-    //   name: 'Tien',
-    //   description:
-    //     'Tien Pham is a senior enrolled in the Penn Computer and Cognitive Science: Artificial Intelligence program. He moved from Vietnam at the age of five and attended Emmaus High School. Throughout his four years there, he participated in a multitude of programming contests. ',
-    // },
-    // {
-    //   photo: denise,
-    //   name: 'Denise',
-    //   description:
-    //     'Denise is a junior studying computer science with a minor in fine arts. She is from Long Island, New York. In her free time, she enjoys painting and doing escape rooms.',
-    // },
-    // {
-    //   photo: Aneesh,
-    //   name: 'Aneesh',
-    //   description:
-    //     'Aneesh Boreda is a junior studying Computer Science and Finance. He participated in PClassic when he was in high school, and still enjoys solving interesting programming problems. He is also a member of the Penn Electric Racing team, and likes to play basketball and watch Formula 1 in his free time.',
-    // },
-    // {
-    //   photo: ziwen,
-    //   name: 'Ziwen',
-    //   description:
-    //     "Ziwen Hou is an ex-leader of PClassic. He is an ex undergraduate now Master's student studying Computer Science. As stated in previous description iterations, he likes to try new things! After getting destroyed by his friends in Smash Ultimate, he bought the game, learned it, and is now better than most of his friends. He also likes playing other videos games, ranging MOBA to single player action adventure to visual novels to mobile. Also he started learning to play chess (but is still really bad :/) (there are some cracked chess players in this club though, try to guess who).",
-    // },
+    {
+      photo: hemosoo,
+      name: 'Hemosoo',
+      description:
+        "Hemosoo is a freshman studying computer science at UPenn. In his free time, he enjoys playing sports such as soccer or basketball, hitting the gym, playing chess, and listening to music of all sorts of genres.",
+    },
   ];
 
   return (
