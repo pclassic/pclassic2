@@ -17,6 +17,8 @@ import kyle from './images/kyle.jpg';
 import aaron from './images/Aaron.JPG';
 import Aneesh from './images/Aneesh.jpg';
 import denise from './images/denise.jpg';
+import michael from './images/michael.jpg';
+import hemosoo from './images/hemosoo.jpg';
 
 function Organizers() {
   const organizers = [
@@ -37,13 +39,13 @@ function Organizers() {
       photo: ishaan,
       name: 'Ishaan',
       description:
-        "[CO-LEAD] Ishaan is a fourth year student Computer Science. In his free time, he likes teaching, reading, and following chess.",
+        "[CO-LEAD] Ishaan is a fourth year student Computer Science. This is his fifth semester in the club and third as the co-lead. In his free time, he enjoys teaching, reading, and following chess.",
     },
     {
       photo: ethan,
       name: 'Ethan',
       description:
-        '[CO-LEAD] Ethan Chee is a senior studying CS. In his free time he likes to rock climb, run and play video games.',
+        '[CO-LEAD] Ethan Chee is a senior studying CS. This is his fifth semester in the club and third as the co-lead. In his free time he likes to rock climb, run and play video games.',
     },
     {
       photo: steven,
@@ -93,6 +95,12 @@ function Organizers() {
       name: 'Hemosoo',
       description:
         "Hemosoo is a freshman studying computer science at UPenn. In his free time, he enjoys playing sports such as soccer or basketball, hitting the gym, playing chess, and listening to music of all sorts of genres.",
+    },
+    {
+      photo: michael,
+      name: 'Michael',
+      description:
+        "Michael is a sophomore studying CIS.  In his free time, he enjoys playing piano, poker, video games, and wasting time.",
     },
   ];
 
