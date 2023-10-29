@@ -12,7 +12,7 @@ import nick from './images/Nick.JPG';
 import steven from './images/Steven.jpg';
 import tien from './images/tien.jpg';
 import ziwen from './images/ziwen.jpg';
-import ishaan from './images/ishaan.png';
+import ishaan from './images/ishaan.jpg';
 import kyle from './images/kyle.jpg';
 import aaron from './images/Aaron.JPG';
 import Aneesh from './images/Aneesh.jpg';
@@ -37,19 +37,19 @@ function Organizers() {
     // },
     {
       photo: ishaan,
-      name: 'Ishaan',
+      name: 'Ishaan Lal',
       description:
         "[CO-LEAD] Ishaan is a fourth year student Computer Science. This is his fifth semester in the club and third as the co-lead. In his free time, he enjoys teaching, reading, and following chess.",
     },
     {
       photo: ethan,
-      name: 'Ethan',
+      name: 'Ethan Chee',
       description:
         '[CO-LEAD] Ethan Chee is a senior studying CS. This is his fifth semester in the club and third as the co-lead. In his free time he likes to rock climb, run and play video games.',
     },
     {
       photo: steven,
-      name: 'Grace',
+      name: 'Grace Lee',
       description:
         "Grace Lee is Grace Lee.",
     },
@@ -62,19 +62,19 @@ function Organizers() {
     
     {
       photo: aaron,
-      name: 'Aaron',
+      name: 'Aaron Mei',
       description:
         'Aaron Mei is a CIS major at Penn who enjoys playing video games and thinking about algorithms.',
     },
     {
       photo: nick,
-      name: 'Nick',
+      name: 'Nick Eiffert',
       description:
         'Nicholas Eiffert is a junior studying mathematics and computer science in CAS. He went to Bordentown Regional High School. He is a TA for a data structures and algorithms course at Penn. He likes doing competitive programming, going to concerts, and eating late-night ramen.',
     },
     {
       photo: kyle,
-      name: 'Kyle',
+      name: 'Kyle Xiong',
       description:
         'Kyle is a senior studying computer science at UPenn. Hailing from Connecticut, he enjoys basketball, skiing, io games, and sometimes computer science. He also wishes you luck on your coding endeavors!',
     },
@@ -86,19 +86,19 @@ function Organizers() {
     },
     {
       photo: steven,
-      name: 'Kevin',
+      name: 'Kevin Liu',
       description:
         "Kevin Liu is Kevin Liu.",
     },
     {
       photo: hemosoo,
-      name: 'Hemosoo',
+      name: 'Hemosoo Woo',
       description:
         "Hemosoo is a freshman studying computer science at UPenn. In his free time, he enjoys playing sports such as soccer or basketball, hitting the gym, playing chess, and listening to music of all sorts of genres.",
     },
     {
       photo: michael,
-      name: 'Michael',
+      name: 'Michael Gao',
       description:
         "Michael is a sophomore studying CIS.  In his free time, he enjoys playing piano, poker, video games, and wasting time.",
     },
