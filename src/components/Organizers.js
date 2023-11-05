@@ -19,6 +19,7 @@ import Aneesh from './images/Aneesh.jpg';
 import denise from './images/denise.jpg';
 import michael from './images/michael.jpg';
 import hemosoo from './images/hemosoo.jpg';
+import grace from './images/grace.jpg'
 
 function Organizers() {
   const organizers = [
@@ -39,19 +40,19 @@ function Organizers() {
       photo: ishaan,
       name: 'Ishaan Lal',
       description:
-        "[CO-LEAD] Ishaan is a fourth year student Computer Science. This is his fifth semester in the club and third as the co-lead. In his free time, he enjoys teaching, reading, and following chess.",
+        "[CO-LEAD] Ishaan is a senior studying Computer Science. This is his fifth semester in the club and third as the co-lead. In his free time, he enjoys teaching, reading, and following chess.",
     },
     {
       photo: ethan,
       name: 'Ethan Chee',
       description:
-        '[CO-LEAD] Ethan Chee is a senior studying CS. This is his fifth semester in the club and third as the co-lead. In his free time he likes to rock climb, run and play video games.',
+        '[CO-LEAD] Ethan Chee is a senior studying CS. In his free time he likes to rock climb, run and play video games.',
     },
     {
-      photo: steven,
+      photo: grace,
       name: 'Grace Lee',
       description:
-        "Grace Lee is Grace Lee.",
+        "Grace is a senior in Computer Science. She typically spends her time working on problem sets, drawing, or talking about cartoons.",
     },
     // {
     //   photo: michelle,
@@ -78,12 +79,12 @@ function Organizers() {
       description:
         'Kyle is a senior studying computer science at UPenn. Hailing from Connecticut, he enjoys basketball, skiing, io games, and sometimes computer science. He also wishes you luck on your coding endeavors!',
     },
-    {
-      photo: steven,
-      name: 'Steven',
-      description:
-        "Steven Chang is a freshman studying computer science from Myanmar. In high school, he participated in math olympiads and volunteering activities. Some of his hobbies are watching K-Dramas, playing chess, and solving the Rubik's cube.",
-    },
+    // {
+    //   photo: steven,
+    //   name: 'Steven',
+    //   description:
+    //     "Steven Chang is a freshman studying computer science from Myanmar. In high school, he participated in math olympiads and volunteering activities. Some of his hobbies are watching K-Dramas, playing chess, and solving the Rubik's cube.",
+    // },
     {
       photo: steven,
       name: 'Kevin Liu',
