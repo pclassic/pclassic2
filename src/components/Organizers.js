@@ -20,6 +20,7 @@ import denise from './images/denise.jpg';
 import michael from './images/michael.jpg';
 import hemosoo from './images/hemosoo.jpg';
 import grace from './images/grace.jpg'
+import kevin from './images/kevin.jpg'
 
 function Organizers() {
   const organizers = [
@@ -86,10 +87,10 @@ function Organizers() {
     //     "Steven Chang is a freshman studying computer science from Myanmar. In high school, he participated in math olympiads and volunteering activities. Some of his hobbies are watching K-Dramas, playing chess, and solving the Rubik's cube.",
     // },
     {
-      photo: steven,
+      photo: kevin,
       name: 'Kevin Liu',
       description:
-        "Kevin Liu is Kevin Liu.",
+        "Kevin Liu is a sophomore studying CIS. He enjoys sleeping in on the weekends.",
     },
     {
       photo: hemosoo,
