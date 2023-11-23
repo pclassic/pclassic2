@@ -53,7 +53,7 @@ function Organizers() {
       photo: grace,
       name: 'Grace Lee',
       description:
-        "Grace is a senior in Computer Science. She typically spends her time working on problem sets, drawing, or talking about cartoons.",
+        "[CO-LEAD] Grace is a senior in Computer Science. She typically spends her time working on problem sets, drawing, or talking about cartoons.",
     },
     // {
     //   photo: michelle,
