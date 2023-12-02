@@ -12,6 +12,10 @@ function Home() {
         <Alert variant="success" onClose={() => setShow(false)} dismissible>
           <Alert.Heading>🚨REMINDER🚨</Alert.Heading>
           <p>PClassic's Upcoming Competition is on December 2, 2023.</p>
+          <a href="https://tinyurl.com/pcl23FAq0">Practice Problem</a>
+          <a href="https://tinyurl.com/pcl23FAclarifications">Clarifications Doc</a>
+          <a href="https://tinyurl.com/pcl23FAclassic"> Classic Competition</a>
+          <a href="https://tinyurl.com/pcl23FAadvanced"> Advanced Competition</a>
           <p>
           <a href="https://docs.google.com/forms/d/e/1FAIpQLSdsKTKwYLb-ekhedupwwi8hPE_TpUtvAD55KtdP_FwlzGHCKQ/viewform?usp=sharing">Sign Up</a>
           </p>
