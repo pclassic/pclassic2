@@ -45,15 +45,6 @@ const Bar = () => {
             <NavDropdown.Item>
             <Link className="navbar-link" to="/past-contests">Past Contests</Link>
             </NavDropdown.Item>
-           
-          </NavDropdown>
-          <NavDropdown title="Extras">
-            <NavDropdown.Item>
-            <Link className="navbar-link" to="/mailing">Mailing List</Link>
-            </NavDropdown.Item>
-            <NavDropdown.Item>
-            <Link className="navbar-link" to="/shirts">Shirts</Link>
-            </NavDropdown.Item>
           </NavDropdown>
       </Nav>
       
