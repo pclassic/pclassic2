@@ -94,7 +94,7 @@ function Organizers() {
     },
     {
       photo: hemosoo,
-      name: 'Michael Li',
+      name: 'Hemosoo Woo',
       description:
         "Hemosoo is a freshman studying computer science at UPenn. In his free time, he enjoys playing sports such as soccer or basketball, hitting the gym, playing chess, and listening to music of all sorts of genres.",
     },
