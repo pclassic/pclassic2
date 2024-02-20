@@ -41,7 +41,7 @@ function About() {
         </Card.Header>
         <Card.Text>
           <Text fontSize={"lg"} color={"#566573"} fontFamily={`'Lato', sans-serif;`}>
-            Contest Date: Saturday, April 20 2024
+            Contest Date: Saturday, April 20, 2024
           </Text>
           <Text fontSize={"lg"} color={"#566573"} fontFamily={`'Lato', sans-serif;`}>
             Location: University of Pennsylvania Engineering Quad
