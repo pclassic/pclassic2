@@ -1,13 +1,17 @@
 import React from 'react'
 import Accordion from 'react-bootstrap/Accordion';
 import Card from 'react-bootstrap/Card';
+import { Heading } from '@chakra-ui/react';
 
 function FAQs() {
   return (
     <Card style={{margin: '50px 120px'}}>
-      <Card.Header className="header">🤔 Frequently Asked Questions
+      <Card.Header className="header">
+        <Heading fontWeight={"400"} fontSize={"3xl"} mt={1}>
+      🤔 Frequently Asked Questions
+      </Heading>
                 </Card.Header>
-        <Accordion defaultActiveKey="0" flush style={{margin: "40px"}}>
+        <Accordion flush style={{margin: "40px"}}>
       <Accordion.Item eventKey="0">
         <Accordion.Header>Where is the competition held?</Accordion.Header>
         <Accordion.Body>
@@ -35,7 +39,8 @@ function FAQs() {
       <Accordion.Item eventKey="3">
         <Accordion.Header>Will there be food?</Accordion.Header>
         <Accordion.Body>
-          Yes! We will provide free lunch and offer concessions!
+          Yes! We will provide free lunch and other snacks for our attendees to enjoy. 
+          We usually order ~100 boxes of pizza for each of our events!
         </Accordion.Body>
       </Accordion.Item>
     </Accordion>

@@ -47,12 +47,14 @@ import S2022s from './pdf/PClassic2022sSolutions.zip';
 import P2022f from './pdf/PClassic2022fProblems.pdf';
 import S2022f from './pdf/PClassic2022fSolutions.zip';
 
+import { Heading } from '@chakra-ui/react';
+
 function Problems() {
   return (
     <div>
       <Bar />
       <br />
-      <h2>Problems 📚</h2>
+      <Heading fontSize={"3xl"} mt={2} fontWeight={"400"}>Problems 📚</Heading>
       <br />
       <Table style={{ padding: '100px' }}>
         <thead>

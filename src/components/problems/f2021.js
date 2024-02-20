@@ -1,11 +1,7 @@
 import React from 'react'
-import Bar from '../../Bar'
 function f2021() {
   return (
     <div>
-<p>If you would like a shirt, order <a href="https://tinyurl.com/pclfa21shirts">here</a>!<br/>
-Additionally, we would appreciate if you could give us some feedback for the competition <a href="https://tinyurl.com/pclfa21feedback">here</a>! Our goal is to make PClassic better every year!</p>
-
 <h4>PClassic Fall 2021 Summary</h4>
 
 <p>

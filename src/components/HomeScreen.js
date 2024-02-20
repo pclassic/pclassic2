@@ -1,8 +1,8 @@
 import * as THREE from 'three'
 import { useRef, Suspense} from 'react'
-import { Canvas, useFrame, useThree} from '@react-three/fiber'
-import { MarchingCubes, MarchingCube, Environment, Sky, Bounds, Text } from '@react-three/drei'
-import { Physics, RigidBody, BallCollider } from '@react-three/rapier'
+import { Canvas, useFrame } from '@react-three/fiber'
+import { MarchingCube, Bounds, Text } from '@react-three/drei'
+import { RigidBody, BallCollider } from '@react-three/rapier'
 const vec = new THREE.Vector3()
 
 function MetaBall({ color, ...props }) {

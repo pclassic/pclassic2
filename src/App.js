@@ -3,7 +3,6 @@ import Home from './components/Home';
 import Organizers from './components/Organizers';
 import PastOrganizers from './components/PastOrganizers';
 import Problems from './components/Problems';
-import History from './components/History';
 import About from './components/About';
 import PastContests from './components/PastContests';
 import Parsing from './components/Parsing';
@@ -41,7 +40,6 @@ function App() {
           <Route path="/organizers" element={<Organizers />} />
           <Route path="/problems" element={<Problems />} />
           <Route path="/parsing" element={<Parsing />} />
-          <Route path="/history" element={<History/>} />
           <Route path="/past-organizers" element={<PastOrganizers />} />
           <Route path="/past-contests" element={<PastContests />} />
 
