@@ -56,7 +56,7 @@ function PastContests() {
       <br />
       <Heading fontSize={"3xl"} fontWeight={400}>Past Contests ⌛</Heading>
       <br />
-      <Tab.Container id="list-group-tabs-example" defaultActiveKey="#S2012">
+      <Tab.Container id="list-group-tabs-example" defaultActiveKey="#F2022">
         <Row>
           <Col sm={4} style={{ width: '20%', padding: '0px 50px' }}>
             <ListGroup>
