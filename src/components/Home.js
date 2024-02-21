@@ -44,7 +44,7 @@ function Home() {
         <Container maxW={"4xl"}>
         <Box my={10}>
           <Heading fontSize={"3xl"} fontWeight={"bold"}>History</Heading>
-            <Text fontSize={"lg"} color={"#566573"} fontFamily={`'Lato', sans-serif;`}>Founded in 1998, PClassic emerged as an annual programming competition tailored for high school students, organized by the Penn's PClassic Organizer Team.
+            <Text fontSize={"lg"} color={"#566573"} fontFamily={`'Lato', sans-serif;`}>Founded in 1998, PClassic emerged as an annual competitive programming competition tailored for high school students, organized by the Penn's PClassic Organizer Team.
               After many years, PClassic introduced a beginner-focused novice division, alongside the decision to host PClassic biannually (Fall and Spring). 
               Recently, attendance rate has risen to 300+ participants and organizers each event, making PClassic one of Pennsylvania's largest competitive programming competitions. 
             </Text>  
