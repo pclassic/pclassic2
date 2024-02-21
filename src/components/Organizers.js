@@ -12,6 +12,7 @@ import michael from './images/michael.jpg';
 import hemosoo from './images/hemosoo.jpg';
 import grace from './images/grace.jpg';
 import kevin from './images/kevin.jpg';
+import michaelli from "./images/michaelli.jpg";
 import { Text, Heading } from '@chakra-ui/react';
 
 function Organizers() {
@@ -95,6 +96,12 @@ function Organizers() {
       name: 'Michael Gao',
       description:
         "Michael is a sophomore studying CIS.  In his free time, he enjoys playing piano, poker, video games, and wasting time.",
+    },
+    {
+      photo: michaelli,
+      name: 'Michael Li',
+      description:
+        "Michael is a freshman studying CS with a focus in software development and full stack development. He's a UFC fan and always loves seeing an underdog win!",
     },
   ];
 
