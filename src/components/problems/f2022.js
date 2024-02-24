@@ -2,7 +2,7 @@ import React from 'react'
 function f2022() {
   return (
     <div>
-        <h4>PClassic Fall 2023 Summary</h4>
+        <h4>PClassic Fall 2022 Summary</h4>
 
 <p>
 Contest Date: <b>Saturday, November 19 2022</b><br/>
