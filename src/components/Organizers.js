@@ -13,6 +13,7 @@ import hemosoo from './images/hemosoo.jpg';
 import grace from './images/grace.jpg';
 import kevin from './images/kevin.jpg';
 import michaelli from "./images/michaelli.jpg";
+import aaronWu from "./images/aaronWu.jpg";
 import { Text, Heading } from '@chakra-ui/react';
 
 function Organizers() {
@@ -102,6 +103,12 @@ function Organizers() {
       name: 'Michael Li',
       description:
         "Michael is a freshman studying CS with a focus in software development and full stack development. He's a UFC fan and always loves seeing an underdog win!",
+    },
+    {
+      photo: aaronWu,
+      name: 'Aaron Wu',
+      description:
+        "I watch anime",
     },
   ];
 
