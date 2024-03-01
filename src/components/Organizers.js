@@ -14,6 +14,7 @@ import grace from './images/grace.jpg';
 import kevin from './images/kevin.jpg';
 import michaelli from "./images/michaelli.jpg";
 import aaronWu from "./images/aaronWu.jpg";
+import kurtis from "./images/kurtis.png";
 import { Text, Heading } from '@chakra-ui/react';
 
 function Organizers() {
@@ -109,6 +110,12 @@ function Organizers() {
       name: 'Aaron Wu',
       description:
         "I watch anime",
+    },
+    {
+      photo: kurtis,
+      name: 'Kurtis Zhang',
+      description:
+        "Kurtis is a freshman studying Computer Science at UPenn. Outside of school he enjoys skiing, playing piano and watching football.",
     },
   ];
 
