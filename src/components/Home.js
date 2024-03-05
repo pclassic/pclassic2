@@ -1,8 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import Bar from '../Bar';
-import HomeScreen from './HomeScreen';
 import Alert from 'react-bootstrap/Alert';
-import Button from 'react-bootstrap/Button';
+import { Box, Text, Container, Heading, Divider } from '@chakra-ui/react';
+import Photos from './Photos';
+import FAQs from './FAQs';
 
 function Home() {
   const [show, setShow] = useState(true);
@@ -10,15 +11,14 @@ function Home() {
     if (show) {
       return (
         <Alert variant="success" onClose={() => setShow(false)} dismissible>
-          <Alert.Heading>🚨REMINDER🚨</Alert.Heading>
-          <p>PClassic's Upcoming Competition is on December 2, 2023.</p>
+          <Heading fontSize={"xl"}>🚨REMINDER🚨</Heading>
+          <p>PClassic's Upcoming Competition is on April 6th, 2024. Registration is open <a href="https://forms.gle/pw1rKX6gKLnTVZYV8">here!</a></p>
+          {/*}
           <p><a href="https://tinyurl.com/pcl23FAq0">Practice Problem</a></p>
           <p><a href="https://tinyurl.com/pcl23FAclarifications">Clarifications Doc</a></p>
           <p><a href="https://tinyurl.com/pcl23FAclassic"> Classic Competition</a></p>
           <p><a href="https://tinyurl.com/pcl23FAadvanced"> Advanced Competition</a> </p>
-          <p>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdsKTKwYLb-ekhedupwwi8hPE_TpUtvAD55KtdP_FwlzGHCKQ/viewform?usp=sharing">Sign Up</a>
-          </p>
+      */} 
         </Alert>
       );
     }
@@ -30,7 +30,30 @@ function Home() {
       <Bar />
       <AlertDismissibleExample />
 
-      <HomeScreen show={show} />
+      <Container maxW={"4xl"}>
+        <Heading my={6} fontSize={"5xl"} color={"#252627"}>The Philadelphia Classic</Heading>
+        <Text fontSize={"lg"} color={"#566573"} fontFamily={`'Lato', sans-serif;`}>The Philadelphia Classic (PClassic) is Philadelphia's Premier 
+          Competitive Programming Competition held at the 
+          University of Pennsylvania. We host events semesterly for high school students. 
+          Prizes and awards are given out to the top scoring teams, and registration for the competition is free for all high schools. 
+          We will be allowing middle school students to participate in the competition as well!</Text>
+          <Text fontSize={"lg"} color={"#566573"} fontFamily={`'Lato', sans-serif;`}>EMAIL: organizers@pclassic.org</Text>
+
+        <Photos/>
+      </Container>
+        <Divider/>
+        <Container maxW={"4xl"}>
+        <Box my={10}>
+          <Heading fontSize={"3xl"} fontWeight={"bold"}>History</Heading>
+            <Text fontSize={"lg"} color={"#566573"} fontFamily={`'Lato', sans-serif;`}>Founded in 1998, PClassic emerged as an annual competitive programming competition tailored for high school students, organized by the Penn's PClassic Organizer Team.
+              After many years, PClassic introduced a beginner-focused novice division, alongside the decision to host PClassic biannually (Fall and Spring). 
+              Recently, attendance rate has risen to 300+ participants and organizers each event, making PClassic one of Pennsylvania's largest competitive programming competitions. 
+            </Text>  
+        </Box>
+        </Container>
+        <Divider/>
+        <FAQs/>
+      
     </div>
   );
 }

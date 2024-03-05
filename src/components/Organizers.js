@@ -3,24 +3,19 @@ import Bar from '../Bar';
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-
-import ben from './images/ben.jpeg';
-import brian from './images/brian.jpg';
 import ethan from './images/echee9.jpg';
-import michelle from './images/Michelle.jpg';
 import nick from './images/Nick.JPG';
-import steven from './images/Steven.jpg';
-import tien from './images/tien.jpg';
-import ziwen from './images/ziwen.jpg';
 import ishaan from './images/ishaan.jpg';
 import kyle from './images/kyle.jpg';
 import aaron from './images/Aaron.JPG';
-import Aneesh from './images/Aneesh.jpg';
-import denise from './images/denise.jpg';
 import michael from './images/michael.jpg';
 import hemosoo from './images/hemosoo.jpg';
-import grace from './images/grace.jpg'
-import kevin from './images/kevin.jpg'
+import grace from './images/grace.jpg';
+import kevin from './images/kevin.jpg';
+import michaelli from "./images/michaelli.jpg";
+import aaronWu from "./images/aaronWu.jpg";
+import kurtis from "./images/kurtis.png";
+import { Text, Heading } from '@chakra-ui/react';
 
 function Organizers() {
   const organizers = [
@@ -39,21 +34,21 @@ function Organizers() {
     // },
     {
       photo: ishaan,
-      name: 'Ishaan Lal',
+      name: 'Ishaan Lal (Co-Lead)',
       description:
-        "[CO-LEAD] Ishaan is a senior studying Computer Science. This is his fifth semester in the club and third as the co-lead. In his free time, he enjoys teaching, reading, and following chess.",
+        "Ishaan is a senior studying Computer Science. This is his sixth semester in the club and fourth as the co-lead. In his free time, he enjoys teaching, reading, and following chess.",
     },
     {
       photo: ethan,
-      name: 'Ethan Chee',
+      name: 'Ethan Chee (Co-Lead)',
       description:
-        '[CO-LEAD] Ethan Chee is a senior studying CS. In his free time he likes to rock climb, run and play video games.',
+        'Ethan Chee is a senior studying CS. In his free time he likes to rock climb, run and play video games.',
     },
     {
       photo: grace,
-      name: 'Grace Lee',
+      name: 'Grace Lee (Co-Lead)',
       description:
-        "[CO-LEAD] Grace is a senior in Computer Science. She typically spends her time working on problem sets, drawing, or talking about cartoons.",
+        "Grace is a senior in Computer Science. She typically spends her time working on problem sets, drawing, or talking about cartoons.",
     },
     // {
     //   photo: michelle,
@@ -104,13 +99,31 @@ function Organizers() {
       description:
         "Michael is a sophomore studying CIS.  In his free time, he enjoys playing piano, poker, video games, and wasting time.",
     },
+    {
+      photo: michaelli,
+      name: 'Michael Li',
+      description:
+        "Michael is a freshman studying CS with a focus in software development and full stack development. He's a UFC fan and always loves seeing an underdog win!",
+    },
+    {
+      photo: aaronWu,
+      name: 'Aaron Wu',
+      description:
+        "I watch anime",
+    },
+    {
+      photo: kurtis,
+      name: 'Kurtis Zhang',
+      description:
+        "Kurtis is a freshman studying Computer Science at UPenn. Outside of school he enjoys skiing, playing piano and watching football.",
+    },
   ];
 
   return (
     <div>
       <Bar />
       <br />
-      <h2>Organizers 👋 </h2>
+      <Heading fontSize={"3xl"} fontWeight={400}>Meet the Organizers! 👋 </Heading>
       <Row xs={1} md={3} className="g-6" style={{ padding: '10px 90px' }}>
         {organizers.map((organizer) => (
           <Col>
@@ -121,8 +134,10 @@ function Organizers() {
                 src={organizer.photo}
               />
               <Card.Body>
-                <Card.Title>{organizer.name}</Card.Title>
-                <Card.Text style={{ textAlign: 'left' }}>{organizer.description}</Card.Text>
+                <Card.Title><Heading fontSize={"lg"} fontWeight={"700"}>{organizer.name}</Heading></Card.Title>
+                  <Text color={"#566573"} textAlign={"left"} fontFamily={`'Lato', sans-serif;`}>
+                    {organizer.description}
+                  </Text>
               </Card.Body>
             </Card>
           </Col>
