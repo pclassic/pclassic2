@@ -1,5 +1,4 @@
 import React from 'react'
-import Bar from '../../Bar'
 function f2019() {
   return (
     <div>

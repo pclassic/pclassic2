@@ -1,8 +1,6 @@
 import React from 'react';
 import Bar from '../Bar';
 import ListGroup from 'react-bootstrap/ListGroup';
-import { LinkContainer } from 'react-router-bootstrap';
-import Nav from 'react-bootstrap/Nav';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Tab from 'react-bootstrap/Tab';
@@ -27,6 +25,8 @@ import F2018 from './problems/f2018';
 import F2019 from './problems/f2019';
 import F2021 from './problems/f2021';
 import F2022 from './problems/f2022';
+
+import { Heading } from '@chakra-ui/react';
 
 function PastContests() {
   const problems = [
@@ -54,9 +54,9 @@ function PastContests() {
     <div>
       <Bar />
       <br />
-      <h2>Past Contests ⌛ </h2>
+      <Heading fontSize={"3xl"} fontWeight={400}>Past Contests ⌛</Heading>
       <br />
-      <Tab.Container id="list-group-tabs-example" defaultActiveKey="#S2012">
+      <Tab.Container id="list-group-tabs-example" defaultActiveKey="#F2022">
         <Row>
           <Col sm={4} style={{ width: '20%', padding: '0px 50px' }}>
             <ListGroup>

@@ -1,11 +1,7 @@
 import React from 'react'
-import Bar from '../../Bar'
 function f2021() {
   return (
     <div>
-<p>If you would like a shirt, order <a href="https://tinyurl.com/pclfa21shirts">here</a>!<br/>
-Additionally, we would appreciate if you could give us some feedback for the competition <a href="https://tinyurl.com/pclfa21feedback">here</a>! Our goal is to make PClassic better every year!</p>
-
 <h4>PClassic Fall 2021 Summary</h4>
 
 <p>
@@ -38,7 +34,7 @@ Congratulations to the winning teams! <br/><br/></p>
 
 <p>Novice Ranks<br/><br/>
 <pre>
-Rank   Team Name                   Username         Score   Penalty   School                                                      
+{`Rank   Team Name                   Username         Score   Penalty   School                                                      
 1      Chad Boothe                 chadboothe23     8       4         River Hill High School                                      
 2      Uwu Femboys                 tstark7          7       11        River Hill High School                                      
 3      Shreyas Fanboys             sharmar6         7       12        West Windsor-Plainsboro High School South                   
@@ -75,49 +71,49 @@ Rank   Team Name                   Username         Score   Penalty   School
 34     Brans                       brandon130       1       0         Upper Darby High School                                     
 35     Speedy Sloths               stylos           1       2         Richard Montgomery High School                              
 36     ADo                         alexander_do     1       6         LaSalle Institute                                           
-</pre>
+`}</pre>
 </p>
 
 <p>Standard Ranks<br/><br/>
 <pre>
-Rank   Team Name                      Username         Score   Penalty   School                                                      
-1      Calcoholics                    radiantcheddar   8       9         Brandywine High School, The Charter School of Wilmington    
-2      Floofers                       zaxwellmen       7       7         Stuyvesant High School                                      
-3      sag tree lazy prop a gaters    lazy_sag_tree    6       2         Henry M. Gunn High School                                   
-4      /[spin]*s/                     spinstars        6       7         West Windsor-Plainsboro High School North                   
-5      PRISMS01                       prisms01er       6       11        Princeton International School of Mathematics and Science   
-6      Team RADD                      mutya            5       5         Half Hollow Hills High School East                          
-7      Virada                         durzal           4       6         Wissahickon High School                                     
-8      Edgemont Programming Team      emschneyer       4       3         Edgemont High School                                        
-9      Super Idol                     happiestbee      4       5         Montgomery Blair HS                                         
-10     We need three pointers         envyaims         4       10        Stuyvesant High School                                      
-11     hmmm                           superstormer     4       11        West Windsor-Plainsboro High School North                   
-12     PPClassic                      ppclassic        4       6         Stuyvesant High School                                      
-13     NERK                           ericsun          3       3         Westford Academy                                            
-14     Filler Name                    dennis_miczek    3       4         Garnet Valley High School                                   
-15     Half-Nerd                      half_nerd        3       4          unaffiliated                                               
-16     Brentwood Coding Club          jackr123         3       3         Brentwood School                                            
-17     blair blezers                  czhang2718       3       4         Montgomery Blair HS                                         
-18     Shnucks                        shnucks          3       3         West Windsor-Plainsboro High School South                   
-19     PAnts                          pants            3       5         Westford Academy                                            
-20     Bing Qi Ling                   benjaminwu13     2       1         Garnet Valley High School                                   
-21     Stonks                         bobsonjoe        2       2         West Windsor-Plainsboro High School North                   
-22     PRISMS10                       prisms10er       2       1         Princeton International School of Mathematics and Science   
-23     Le Fishe Au Chocolat           gthompson30      2       1         Stuyvesant High School                                      
-24     Battlefield Garbage            lee53            2       1         Battlefield High School                                     
-25     Team 3zik                      ryanofarrell     2       4         Wissahickon High School                                     
-26     Ithaca Javacados               om17             2       0         Ithaca High School                                          
-27     Gavin's Team                   gavincodes123    2       2         Conestoga High School                                       
-28     rubberducks                    rubberducks      2       0         West Windsor-Plainsboro High School South                   
-29     insert something original      miik3y           2       4         West Windsor-Plainsboro High School South                   
-30     GuilderlandA                   guilderland_a    2       11        Guilderland High School                                     
-31     Dominik's Team                 dygitdacoder     2       5         Conestoga High School                                       
-32     N Queens                       nqueens          1       0         West Windsor-Plainsboro High School North                   
-33     Battlefield Marriage           blaze_123        1       0         Battlefield High School                                     
-34     Tean's Team                    jeffy85          1       0         Conestoga High School                                       
-35     We couldn't find a team name   shiftkei         1       2         The Episcopal Academy                                       
+{`Rank   Team Name                      Username         Score   Penalty   School                                                      
+1      Calcoholics                    radiantcheddar   8       9         Brandywine High School, The Charter School of Wilmington   
+2      Floofers                       zaxwellmen       7       7         Stuyvesant High School                                     
+3      sag tree lazy prop a gaters    lazy_sag_tree    6       2         Henry M. Gunn High School                                  
+4      /[spin]*s/                     spinstars        6       7         West Windsor-Plainsboro High School North                  
+5      PRISMS01                       prisms01er       6       11        Princeton International School of Mathematics and Science  
+6      Team RADD                      mutya            5       5         Half Hollow Hills High School East                         
+7      Virada                         durzal           4       6         Wissahickon High School                                    
+8      Edgemont Programming Team      emschneyer       4       3         Edgemont High School                                       
+9      Super Idol                     happiestbee      4       5         Montgomery Blair HS                                        
+10     We need three pointers         envyaims         4       10        Stuyvesant High School                                     
+11     hmmm                           superstormer     4       11        West Windsor-Plainsboro High School North                  
+12     PPClassic                      ppclassic        4       6         Stuyvesant High School                                     
+13     NERK                           ericsun          3       3         Westford Academy                                           
+14     Filler Name                    dennis_miczek    3       4         Garnet Valley High School                                  
+15     Half-Nerd                      half_nerd        3       4          unaffiliated                                              
+16     Brentwood Coding Club          jackr123         3       3         Brentwood School                                           
+17     blair blezers                  czhang2718       3       4         Montgomery Blair HS                                        
+18     Shnucks                        shnucks          3       3         West Windsor-Plainsboro High School South                  
+19     PAnts                          pants            3       5         Westford Academy                                           
+20     Bing Qi Ling                   benjaminwu13     2       1         Garnet Valley High School                                  
+21     Stonks                         bobsonjoe        2       2         West Windsor-Plainsboro High School North                  
+22     PRISMS10                       prisms10er       2       1         Princeton International School of Mathematics and Science  
+23     Le Fishe Au Chocolat           gthompson30      2       1         Stuyvesant High School                                     
+24     Battlefield Garbage            lee53            2       1         Battlefield High School                                    
+25     Team 3zik                      ryanofarrell     2       4         Wissahickon High School                                    
+26     Ithaca Javacados               om17             2       0         Ithaca High School                                         
+27     Gavin's Team                   gavincodes123    2       2         Conestoga High School                                      
+28     rubberducks                    rubberducks      2       0         West Windsor-Plainsboro High School South                  
+29     insert something original      miik3y           2       4         West Windsor-Plainsboro High School South                  
+30     GuilderlandA                   guilderland_a    2       11        Guilderland High School                                    
+31     Dominik's Team                 dygitdacoder     2       5         Conestoga High School                                      
+32     N Queens                       nqueens          1       0         West Windsor-Plainsboro High School North                  
+33     Battlefield Marriage           blaze_123        1       0         Battlefield High School                                    
+34     Tean's Team                    jeffy85          1       0         Conestoga High School                                      
+35     We couldn't find a team name   shiftkei         1       2         The Episcopal Academy                                      
 36     i believe                      owhan            1       2         Los Altos High School                                       
-</pre>
+`}</pre>
 </p>
 
 <p>

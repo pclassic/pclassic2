@@ -1,5 +1,4 @@
 import React from 'react'
-import Bar from '../../Bar'
 function s2017() {
   return (
     <div>

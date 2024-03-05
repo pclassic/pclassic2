@@ -5,17 +5,19 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import ListGroup from 'react-bootstrap/ListGroup';
 import Card from 'react-bootstrap/Card';
+import { Text, Heading } from '@chakra-ui/react';
 
 function Parsing() {
   return (
     <div>
       <Bar />
       <br />
-      <h2>Parsing 🤖</h2>
+      <Heading fontSize={"3xl"} fontWeight={400}>Parsing 🤖</Heading>
       <br />
-      <h3>
-       Parsing is easy! 🐣 Check out our Parsing tutorial and sample files below:
-      </h3>
+      <Text fontSize={"2xl"} color={"#566573"} fontFamily={`'Lato', sans-serif;`}>
+        Parsing is easy! Check out our Parsing tutorial and sample files below:
+      </Text>
+       
       <br />
       <Container>
       <Row>
