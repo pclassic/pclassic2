@@ -21,6 +21,9 @@ import brian from './past/brian.jpg'
 import michelle from './past/Michelle.jpg'
 import kyle from './past/kyle.jpg'
 import steven from './past/Steven.jpg'
+import ethan from './past/echee9.jpg';
+import ishaan from './past/ishaan.jpg';
+import grace from './past/grace.jpg';
 
 function PastOrganizers() {
     const organizers = [
@@ -40,6 +43,10 @@ function PastOrganizers() {
         {photo: michelle, name: "Michelle Chang", description: ""}, // Michelle Chang is a sophomore studying CS. She likes web development, K-Pop dancing, and running
         {photo: kyle, name: "Kyle Xiong", description: ""}, // Kyle is a senior studying computer science at UPenn. Hailing from Connecticut, he enjoys basketball, skiing, io games, and sometimes computer science. He also wishes you luck on your coding endeavors!
         {photo: steven, name: "Steven Chang", description: ""}, // Steven Chang is a freshman studying computer science from Myanmar. In high school, he participated in math olympiads and volunteering activities. Some of his hobbies are watching K-Dramas, playing chess, and solving the Rubik's cube.
+        {photo: ishaan, name: "Ishaan Lal", description: ""}, // Ishaan is a senior studying Computer Science. This is his sixth semester in the club and fourth as the co-lead. In his free time, he enjoys teaching, reading, and following chess.
+        {photo: ethan, name: "Ethan Chee", description: ""}, // Ethan Chee is a senior studying CS. In his free time he likes to rock climb, run and play video games.
+        {photo: grace, name: "Grace Lee", description: ""}, // Grace is a senior in Computer Science. She typically spends her time working on problem sets, drawing, or talking about cartoons.
+        // {photo: , name: "", description: ""}, // 
       ];
 
   return (

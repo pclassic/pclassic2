@@ -3,40 +3,21 @@ import Bar from '../Bar';
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import ethan from './images/echee9.jpg';
+import Nav from "react-bootstrap/Nav"
+import { LinkContainer } from 'react-router-bootstrap';
+import { Text, Heading } from '@chakra-ui/react';
+
 import nick from './images/Nick.JPG';
-import ishaan from './images/ishaan.jpg';
 import aaron from './images/Aaron.JPG';
 import michael from './images/michael.jpg';
 import hemosoo from './images/hemosoo.jpg';
-import grace from './images/grace.jpg';
 import kevin from './images/kevin.jpg';
 import michaelli from "./images/michaelli.jpg";
 import aaronWu from "./images/aaronWu.jpg";
 import kurtis from "./images/kurtis.png";
-import { Text, Heading } from '@chakra-ui/react';
 
 function Organizers() {
   const organizers = [
-    {
-      photo: ishaan,
-      name: 'Ishaan Lal (Co-Lead)',
-      description:
-        "Ishaan is a senior studying Computer Science. This is his sixth semester in the club and fourth as the co-lead. In his free time, he enjoys teaching, reading, and following chess.",
-    },
-    {
-      photo: ethan,
-      name: 'Ethan Chee (Co-Lead)',
-      description:
-        'Ethan Chee is a senior studying CS. In his free time he likes to rock climb, run and play video games.',
-    },
-    {
-      photo: grace,
-      name: 'Grace Lee (Co-Lead)',
-      description:
-        "Grace is a senior in Computer Science. She typically spends her time working on problem sets, drawing, or talking about cartoons.",
-    },
-    
     {
       photo: aaron,
       name: 'Aaron Mei',
@@ -92,6 +73,11 @@ function Organizers() {
       <Bar />
       <br />
       <Heading fontSize={"3xl"} fontWeight={400}>Meet the Organizers! 👋 </Heading>
+      <LinkContainer to="/past-organizers">
+        <Nav.Link>
+          <u>Past Organizers</u>
+        </Nav.Link>
+      </LinkContainer>
       <Row xs={1} md={3} className="g-6" style={{ padding: '10px 90px' }}>
         {organizers.map((organizer) => (
           <Col>
