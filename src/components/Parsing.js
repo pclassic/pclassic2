@@ -22,6 +22,7 @@ function Parsing() {
       <Container>
       <Row>
       <Col>
+      <i>Please check again later for a video guide.</i>
       <iframe src="https://drive.google.com/file/d/1Dt1WtVxcyoVuRo1iFmHiw4Q1liCko0TF/preview" width="900" height="480" allow="autoplay"></iframe>
       </Col>
       <Col>
