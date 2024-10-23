@@ -11,8 +11,8 @@ function Home() {
     if (show) {
       return (
         <Alert variant="success" onClose={() => setShow(false)} dismissible>
-          <Heading fontSize={"xl"}>PClassic's Upcoming Competition is *tentatively* on Nov. 23, 2024. Check back for updates. Registration will open soon!</Heading>
-          {/* <p>The next competition will be announced in the upcoming fall!<a href="https://forms.gle/pw1rKX6gKLnTVZYV8"></a></p> */}
+          <Heading fontSize={"xl"}>🚨REMINDER🚨</Heading>
+          <p>PClassic's Upcoming Competition is *tentatively* on Nov. 23, 2024. Check back later for updates. Registration will open soon!{/*<a href="https://forms.gle/pw1rKX6gKLnTVZYV8"></a>*/}</p>
           {/*}
           <p><a href="https://tinyurl.com/pcl23FAq0">Practice Problem</a></p>
           <p><a href="https://tinyurl.com/pcl23FAclarifications">Clarifications Doc</a></p>
