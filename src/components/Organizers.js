@@ -3,6 +3,8 @@ import Bar from '../Bar';
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import Nav from "react-bootstrap/Nav"
+import { LinkContainer } from 'react-router-bootstrap';
 
 import nick from './images/nick.jpg';
 import aaron from './images/meiron.jpg';
@@ -13,7 +15,6 @@ import michaelli from "./images/michaelli.jpg";
 import aaronWu from "./images/aaronWu.jpg";
 import kurtis from "./images/kurtis.png";
 import { Text, Heading } from '@chakra-ui/react';
-import { Link } from 'react-router-dom';
 
 function Organizers() {
   const organizers = [
@@ -72,7 +73,11 @@ function Organizers() {
       <Bar />
       <br />
       <Heading fontSize={"3xl"} fontWeight={400}>Meet the Organizers! 👋 </Heading>
-      <Link className="navbar-link" to="/past-organizers">Past Organizers</Link>
+      <LinkContainer to="/past-organizers">
+        <Nav.Link>
+          <u>Past Organizers</u>
+        </Nav.Link>
+      </LinkContainer>
       <Row xs={1} md={3} className="g-6" style={{ padding: '10px 90px' }}>
         {organizers.map((organizer) => (
           <Col>
