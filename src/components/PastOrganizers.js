@@ -16,6 +16,7 @@ import meggie from './past/meggie.jpg'
 import james from './past/james.jpg'
 import ying from './past/ying.jpg'
 
+import ben from './past/ben.jpg'
 
 function PastOrganizers() {
     const organizers = [
@@ -29,7 +30,8 @@ function PastOrganizers() {
         {photo: vatsin, name: "Vatsin Suchak", description: "Vatsin Suchak is a senior at Penn, currently studying computer science and math. He is a TA for a discrete math course at Penn, CIS 160. He also enjoys watching motorsports, playing the guitar, and loves dogs."},
         {photo: meggie, name: "Meggie Cheng", description: "Meggie Cheng is a senior in Digital Media Design in SEAS. She was born in NYC but was raised in Houston, Texas and went to Cypress Woods High School. Her hobbies include competitive programming (did in high school), digital painting, reading webtoons."},
         {photo: james, name: "James Hu", description: "James Hu was a 2020 alumni who studied Computer Science with minors in Mathematics and Statistics. He was on the Penn rugby team. He also enjoys camping, skateboarding, and playing video games with friends."},
-        {photo: ying, name: "Yingxuan Eng", description: "Yingxuan Eng is a senior studying computer science in SEAS. He enjoys mathematics as well as writing code to solve problems from various disciplines. In his free time, he likes to read, binge-watch TV series, and play Smash."}
+        {photo: ying, name: "Yingxuan Eng", description: "Yingxuan Eng is a senior studying computer science in SEAS. He enjoys mathematics as well as writing code to solve problems from various disciplines. In his free time, he likes to read, binge-watch TV series, and play Smash."},
+        {photo: ben, name: "Benjamin Le", description: ""}, // Benjamin Le is a sophomore studying comdputer science in SEAS. He enjoys learning mathematics and solving interesting problems. In his free time, he likes to read and play video games.
       ];
 
   return (
