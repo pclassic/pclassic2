@@ -6,7 +6,6 @@ import Row from 'react-bootstrap/Row';
 import ethan from './images/echee9.jpg';
 import nick from './images/Nick.JPG';
 import ishaan from './images/ishaan.jpg';
-import kyle from './images/kyle.jpg';
 import aaron from './images/Aaron.JPG';
 import michael from './images/michael.jpg';
 import hemosoo from './images/hemosoo.jpg';
@@ -19,19 +18,6 @@ import { Text, Heading } from '@chakra-ui/react';
 
 function Organizers() {
   const organizers = [
-
-    // { // He's not doing PClassic this semester, but we can put him on the Past Organizers page for Fall 2022 if we're doing that
-    //   photo: ben,
-    //   name: 'Benjamin',
-    //   description:
-    //     'Benjamin Le is a sophomore studying computer science in SEAS. He enjoys learning mathematics and solving interesting problems. In his free time, he likes to read and play video games.',
-    // },
-    // {
-    //   photo: brian,
-    //   name: 'Brian',
-    //   description:
-    //     "Brian Chen is a master's student studying computer science. He studied computational biology and computer science as an undergraduate. He enjoys playing basketball, solving Rubik's cubes, and learning about languages.",
-    // },
     {
       photo: ishaan,
       name: 'Ishaan Lal (Co-Lead)',
@@ -50,12 +36,6 @@ function Organizers() {
       description:
         "Grace is a senior in Computer Science. She typically spends her time working on problem sets, drawing, or talking about cartoons.",
     },
-    // {
-    //   photo: michelle,
-    //   name: 'Michelle',
-    //   description:
-    //     'Michelle Chang is a sophomore studying CS. She likes web development, K-Pop dancing, and running.',
-    // },
     
     {
       photo: aaron,
@@ -69,18 +49,6 @@ function Organizers() {
       description:
         'Nicholas Eiffert is a junior studying mathematics and computer science in CAS. He went to Bordentown Regional High School. He is a TA for a data structures and algorithms course at Penn. He likes doing competitive programming, going to concerts, and eating late-night ramen.',
     },
-    {
-      photo: kyle,
-      name: 'Kyle Xiong',
-      description:
-        'Kyle is a senior studying computer science at UPenn. Hailing from Connecticut, he enjoys basketball, skiing, io games, and sometimes computer science. He also wishes you luck on your coding endeavors!',
-    },
-    // {
-    //   photo: steven,
-    //   name: 'Steven',
-    //   description:
-    //     "Steven Chang is a freshman studying computer science from Myanmar. In high school, he participated in math olympiads and volunteering activities. Some of his hobbies are watching K-Dramas, playing chess, and solving the Rubik's cube.",
-    // },
     {
       photo: kevin,
       name: 'Kevin Liu',

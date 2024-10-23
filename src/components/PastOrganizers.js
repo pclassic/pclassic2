@@ -17,6 +17,10 @@ import james from './past/james.jpg'
 import ying from './past/ying.jpg'
 
 import ben from './past/ben.jpg'
+import brian from './past/brian.jpg'
+import michelle from './past/Michelle.jpg'
+import kyle from './past/kyle.jpg'
+import steven from './past/Steven.jpg'
 
 function PastOrganizers() {
     const organizers = [
@@ -32,6 +36,10 @@ function PastOrganizers() {
         {photo: james, name: "James Hu", description: "James Hu was a 2020 alumni who studied Computer Science with minors in Mathematics and Statistics. He was on the Penn rugby team. He also enjoys camping, skateboarding, and playing video games with friends."},
         {photo: ying, name: "Yingxuan Eng", description: "Yingxuan Eng is a senior studying computer science in SEAS. He enjoys mathematics as well as writing code to solve problems from various disciplines. In his free time, he likes to read, binge-watch TV series, and play Smash."},
         {photo: ben, name: "Benjamin Le", description: ""}, // Benjamin Le is a sophomore studying comdputer science in SEAS. He enjoys learning mathematics and solving interesting problems. In his free time, he likes to read and play video games.
+        {photo: brian, name: "Brian Chen", description: ""}, // Brian Chen is a master's student studying computer science. He studied computational biology and computer science as an undergraduate. He enjoys playing basketball, solving Rubik's cubes, and learning about languages.
+        {photo: michelle, name: "Michelle Chang", description: ""}, // Michelle Chang is a sophomore studying CS. She likes web development, K-Pop dancing, and running
+        {photo: kyle, name: "Kyle Xiong", description: ""}, // Kyle is a senior studying computer science at UPenn. Hailing from Connecticut, he enjoys basketball, skiing, io games, and sometimes computer science. He also wishes you luck on your coding endeavors!
+        {photo: steven, name: "Steven Chang", description: ""}, // Steven Chang is a freshman studying computer science from Myanmar. In high school, he participated in math olympiads and volunteering activities. Some of his hobbies are watching K-Dramas, playing chess, and solving the Rubik's cube.
       ];
 
   return (
