@@ -37,11 +37,11 @@ function About() {
 
       <Card className="fade-in2" style={{ margin: '50px 120px' }}>
         <Card.Header>
-          <Heading fontSize={"3xl"} mt={2} fontWeight={"400"}>🗓️ PClassic Spring 2024 Details</Heading>
+          <Heading fontSize={"3xl"} mt={2} fontWeight={"400"}>🗓️ PClassic Fall 2024 Details</Heading>
         </Card.Header>
         <Card.Text>
           <Text fontSize={"lg"} color={"#566573"} fontFamily={`'Lato', sans-serif;`}>
-            Contest Date: Saturday, April 6, 2024
+            Contest Date: Saturday, November 23, 2024
           </Text>
           <Text fontSize={"lg"} color={"#566573"} fontFamily={`'Lato', sans-serif;`}>
             Location: University of Pennsylvania Engineering Quad
