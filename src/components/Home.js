@@ -13,7 +13,7 @@ function Home() {
         <Alert variant="success" onClose={() => setShow(false)} dismissible>
           <Heading fontSize={"xl"}>🚨REMINDER🚨</Heading>
           {/* <p>PClassic's 2024 Fall competition is on Nov. 23, 2024.  Registration is now open: <u><a href="https://forms.gle/kqK7C8gsYfMu4yMQ6">HERE</a></u></p> */}
-          <p>PClassic's 2024 Fall competition is on Nov. 23, 2024.  Registration is closed.</p>
+          <p>PClassic's 2024 Fall competition is on Nov. 23, 2024.  Registration is closed.  Remember to complete <u><a href="https://www.pclassic.org/about">the waiver</a></u>.</p>
           {/*}
           <p><a href="https://tinyurl.com/pcl23FAq0">Practice Problem</a></p>
           <p><a href="https://tinyurl.com/pcl23FAclarifications">Clarifications Doc</a></p>
