@@ -19,6 +19,18 @@ import kurtis from "./images/kurtis.png";
 function Organizers() {
   const organizers = [
     {
+      photo: michael,
+      name: 'Michael Gao (Co-Lead)',
+      description:
+        "Michael is a sophomore studying CIS.  In his free time, he enjoys playing piano, poker, video games, and wasting time.",
+    },
+    {
+      photo: kurtis,
+      name: 'Kurtis Zhang (Co-Lead)',
+      description:
+        "Kurtis is a freshman studying Computer Science at UPenn. Outside of school he enjoys skiing, playing piano and watching football.",
+    },
+    {
       photo: aaron,
       name: 'Aaron Mei',
       description:
@@ -37,35 +49,23 @@ function Organizers() {
         "Kevin Liu is a sophomore studying CIS. He enjoys sleeping in on the weekends.",
     },
     {
-      photo: hemosoo,
-      name: 'Hemosoo Woo',
-      description:
-        "Hemosoo is a freshman studying computer science at UPenn. In his free time, he enjoys playing sports such as soccer or basketball, hitting the gym, playing chess, and listening to music of all sorts of genres.",
-    },
-    {
-      photo: michael,
-      name: 'Michael Gao',
-      description:
-        "Michael is a sophomore studying CIS.  In his free time, he enjoys playing piano, poker, video games, and wasting time.",
-    },
-    {
-      photo: michaelli,
-      name: 'Michael Li',
-      description:
-        "Michael is a freshman studying CS with a focus in software development and full stack development. He's a UFC fan and always loves seeing an underdog win!",
-    },
-    {
       photo: aaronWu,
       name: 'Aaron Wu',
       description:
-        "I watch anime",
+      "I watch anime",
     },
-    {
-      photo: kurtis,
-      name: 'Kurtis Zhang',
-      description:
-        "Kurtis is a freshman studying Computer Science at UPenn. Outside of school he enjoys skiing, playing piano and watching football.",
-    },
+    // {
+    //   photo: hemosoo,
+    //   name: 'Hemosoo Woo',
+    //   description:
+    //     "Hemosoo is a freshman studying computer science at UPenn. In his free time, he enjoys playing sports such as soccer or basketball, hitting the gym, playing chess, and listening to music of all sorts of genres.",
+    // },
+    // {
+    //   photo: michaelli,
+    //   name: 'Michael Li',
+    //   description:
+    //     "Michael is a freshman studying CS with a focus in software development and full stack development. He's a UFC fan and always loves seeing an underdog win!",
+    // },
   ];
 
   return (
