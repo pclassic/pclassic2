@@ -15,6 +15,8 @@ import kevin from './images/kevin.jpg';
 import michaelli from "./images/michaelli.jpg";
 import aaronWu from "./images/aaronWu.jpg";
 import kurtis from "./images/kurtis.png";
+import jason from "./images/jason.png";
+import ntarsis from "./images/ntarsis.png";
 
 function Organizers() {
   const organizers = [
@@ -22,7 +24,7 @@ function Organizers() {
       photo: michael,
       name: 'Michael Gao (Co-Lead)',
       description:
-        "Michael is a sophomore studying CIS.  In his free time, he enjoys playing piano, poker, video games, and wasting time.",
+        "\"I am a junior studying computer science.  I like (in order of skill) wasting time, video games, badminton, playing piano, and poker.\"",
     },
     {
       photo: kurtis,
@@ -31,17 +33,29 @@ function Organizers() {
         "Kurtis is a freshman studying Computer Science at UPenn. Outside of school he enjoys skiing, playing piano and watching football.",
     },
     {
-      photo: aaron,
-      name: 'Aaron Mei',
+      photo: jason,
+      name: 'Jason Liu',
       description:
-        'Aaron Mei is a CIS major at Penn who enjoys playing video games and thinking about algorithms.',
+        "\"I do computer science.\"",
     },
     {
-      photo: nick,
-      name: 'Nick Eiffert',
+      photo: ntarsis,
+      name: 'Nicholas Tarsis',
       description:
-        'Nicholas Eiffert is a junior studying mathematics and computer science in CAS. He went to Bordentown Regional High School. He is a TA for a data structures and algorithms course at Penn. He likes doing competitive programming, going to concerts, and eating late-night ramen.',
+        "\"I bench 315.\"",
     },
+    // {
+    //   photo: aaron,
+    //   name: 'Aaron Mei',
+    //   description:
+    //     'Aaron Mei is a CIS major at Penn who enjoys playing video games and thinking about algorithms.',
+    // },
+    // {
+    //   photo: nick,
+    //   name: 'Nick Eiffert',
+    //   description:
+    //     'Nicholas Eiffert is a junior studying mathematics and computer science in CAS. He went to Bordentown Regional High School. He is a TA for a data structures and algorithms course at Penn. He likes doing competitive programming, going to concerts, and eating late-night ramen.',
+    // },
     {
       photo: kevin,
       name: 'Kevin Liu',
@@ -52,7 +66,7 @@ function Organizers() {
       photo: aaronWu,
       name: 'Aaron Wu',
       description:
-      "I watch anime",
+      "\"I watch anime.\"",
     },
     // {
     //   photo: hemosoo,
