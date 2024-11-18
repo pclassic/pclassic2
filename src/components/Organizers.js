@@ -16,7 +16,7 @@ import michaelli from "./images/michaelli.jpg";
 import aaronWu from "./images/aaronWu.jpg";
 import kurtis from "./images/kurtis.png";
 import jason from "./images/jason.png";
-import ntarsis from "./images/ntarsis.png";
+import ntarsis from "./images/ntarsis.jpg";
 
 function Organizers() {
   const organizers = [
