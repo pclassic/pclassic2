@@ -22,7 +22,7 @@ function Organizers() {
       photo: michael,
       name: 'Michael Gao (Co-Lead)',
       description:
-        "\"I am a junior studying computer science.  I like (in order of skill) wasting time, video games, badminton, playing piano, and poker.\"",
+        "\"I am a junior studying computer science.  I like (in decreasing order of skill) wasting time, video games, badminton, playing piano, and poker.\"",
     },
     {
       photo: kurtis,
