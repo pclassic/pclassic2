@@ -24,6 +24,8 @@ import steven from './past/Steven.jpg'
 import ethan from './past/echee9.jpg';
 import ishaan from './past/ishaan.jpg';
 import grace from './past/grace.jpg';
+import hemosoo from './past/hemosoo.jpg';
+import michaelli from "./past/michaelli.jpg";
 
 function PastOrganizers() {
     const organizers = [
@@ -46,6 +48,8 @@ function PastOrganizers() {
         {photo: ishaan, name: "Ishaan Lal", description: ""}, // Ishaan is a senior studying Computer Science. This is his sixth semester in the club and fourth as the co-lead. In his free time, he enjoys teaching, reading, and following chess.
         {photo: ethan, name: "Ethan Chee", description: ""}, // Ethan Chee is a senior studying CS. In his free time he likes to rock climb, run and play video games.
         {photo: grace, name: "Grace Lee", description: ""}, // Grace is a senior in Computer Science. She typically spends her time working on problem sets, drawing, or talking about cartoons.
+        {photo: hemosoo, name: 'Hemosoo Woo', description: "(23fa-24sp)\nHemosoo is a freshman studying computer science at UPenn. In his free time, he enjoys playing sports such as soccer or basketball, hitting the gym, playing chess, and listening to music of all sorts of genres."},
+        {photo: michaelli, name: 'Michael Li', description: "(24sp)\nMichael is a freshman studying CS with a focus in software development and full stack development. He's a UFC fan and always loves seeing an underdog win!"},
         // {photo: , name: "", description: ""}, // 
       ];
 

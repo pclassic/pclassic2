@@ -10,9 +10,7 @@ import { Text, Heading } from '@chakra-ui/react';
 import nick from './images/Nick.JPG';
 import aaron from './images/Aaron.JPG';
 import michael from './images/michael.jpg';
-import hemosoo from './images/hemosoo.jpg';
 import kevin from './images/kevin.jpg';
-import michaelli from "./images/michaelli.jpg";
 import aaronWu from "./images/aaronWu.jpg";
 import kurtis from "./images/kurtis.png";
 import jason from "./images/jason.png";
@@ -68,18 +66,6 @@ function Organizers() {
       description:
       "\"I watch anime.\"",
     },
-    // {
-    //   photo: hemosoo,
-    //   name: 'Hemosoo Woo',
-    //   description:
-    //     "Hemosoo is a freshman studying computer science at UPenn. In his free time, he enjoys playing sports such as soccer or basketball, hitting the gym, playing chess, and listening to music of all sorts of genres.",
-    // },
-    // {
-    //   photo: michaelli,
-    //   name: 'Michael Li',
-    //   description:
-    //     "Michael is a freshman studying CS with a focus in software development and full stack development. He's a UFC fan and always loves seeing an underdog win!",
-    // },
   ];
 
   return (
