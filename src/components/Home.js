@@ -13,12 +13,12 @@ function Home() {
         <Alert variant="success" onClose={() => setShow(false)} dismissible>
           <Heading fontSize={"xl"}>🚨REMINDER🚨</Heading>
           {/* <p>PClassic's 2024 Fall competition is on Nov. 23, 2024.  Registration is now open: <u><a href="https://forms.gle/kqK7C8gsYfMu4yMQ6">HERE</a></u></p> */}
-          <p>PClassic's 2024 Fall competition is TODAY!  Contest links will be posted soon.</p>
+          <p>PClassic's 2024 Fall competition is TODAY!</p>
           <p><a href="https://rebrand.ly/pcl24FAq0">Practice Problem</a></p>
           <p><a href="https://rebrand.ly/pcl24FAclarifications">Clarifications Doc</a></p>
+          <p><a href="https://rebrand.ly/pcl24FAclassic">Classic Competition</a></p>
+          <p><a href="https://rebrand.ly/pcl24FAadvanced">Advanced Competition</a> </p>
           {/*}
-          <p><a href="https://tinyurl.com/pcl23FAclassic"> Classic Competition</a></p>
-          <p><a href="https://tinyurl.com/pcl23FAadvanced"> Advanced Competition</a> </p>
       */} 
         </Alert>
       );
