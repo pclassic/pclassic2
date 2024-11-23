@@ -14,6 +14,7 @@ function Home() {
           <Heading fontSize={"xl"}>🚨REMINDER🚨</Heading>
           {/* <p>PClassic's 2024 Fall competition is on Nov. 23, 2024.  Registration is now open: <u><a href="https://forms.gle/kqK7C8gsYfMu4yMQ6">HERE</a></u></p> */}
           <p>PClassic's 2024 Fall competition is TODAY!</p>
+          <p><strong>If you did not get pizza, we will deliver it to you as soon as it arrives.  Apologies for the inconvenience.</strong></p>
           <p><a href="https://rebrand.ly/pcl24FAq0">Practice Problem</a></p>
           <p><a href="https://rebrand.ly/pcl24FAclarifications">Clarifications Doc</a></p>
           <p><a href="https://rebrand.ly/pcl24FAclassic">Classic Competition</a></p>
