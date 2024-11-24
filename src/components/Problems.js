@@ -51,6 +51,7 @@ import P2023f from './pdf/PClassic2023fProblems.pdf';
 import S2023f from './pdf/PClassic2023fSolutions.zip';
 import S2023s from './pdf/PClassic2023sSolutions.zip';
 import P2024f from './pdf/PClassic2024fProblems.pdf';
+import S2024f from './pdf/PClassic2024fSolutions.zip';
 
 import { Heading } from '@chakra-ui/react';
 
@@ -74,28 +75,29 @@ function Problems() {
         </thead>
         <tbody>
           <tr>
-            <td>2023</td>
+            <td>2024</td>
             <td>
               <Download pdf={P2024f} name="2024F Problems">
                 {' '}
               </Download>{' '}
             </td>
             <td>
-              <p>Coming Soon!</p>
-              {/* <Download pdf={S2024f} name="2023F Solutions">
-                {' '}
-              </Download>{' '} */}
-            </td>
-            {/* <td>
-              <Download pdf={P2023s} name="2023S Problems">
+              <Download pdf={S2024f} name="2024F Solutions">
                 {' '}
               </Download>{' '}
             </td>
             <td>
-              <Download pdf={S2023s} name="2023S Solutions">
+              Coming Soon!
+              {/* <Download pdf={P2024s} name="2024S Problems">
                 {' '}
-              </Download>{' '}
-            </td> */}
+              </Download>{' '} */}
+            </td>
+            <td>
+              Coming Soon!
+              {/* <Download pdf={S2024s} name="2024S Solutions">
+                {' '}
+              </Download>{' '} */}
+            </td>
           </tr>
           <tr>
             <td>2023</td>

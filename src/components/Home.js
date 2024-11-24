@@ -16,7 +16,7 @@ function Home() {
           <p>Thanks for coming to PClassic's 2024 Fall contest.</p>
           <p><u><a href="https://forms.gle/H7PuzQKDHjZUoQt69">Feedback</a></u></p>
           <p>
-            <u><a href="https://rebrand.ly/pcl24FAclassic">Classic Competition</a></u> -
+            <u><a href="https://rebrand.ly/pcl24FAclassic">Classic Competition</a></u>—
             <u><a href="https://rebrand.ly/pcl24FAadvanced">Advanced Competition</a></u>
           </p>
           {/*}
