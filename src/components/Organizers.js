@@ -42,18 +42,18 @@ function Organizers() {
       description:
         "\"I bench 315.\"",
     },
-    // {
-    //   photo: aaron,
-    //   name: 'Aaron Mei',
-    //   description:
-    //     'Aaron Mei is a CIS major at Penn who enjoys playing video games and thinking about algorithms.',
-    // },
-    // {
-    //   photo: nick,
-    //   name: 'Nick Eiffert',
-    //   description:
-    //     'Nicholas Eiffert is a junior studying mathematics and computer science in CAS. He went to Bordentown Regional High School. He is a TA for a data structures and algorithms course at Penn. He likes doing competitive programming, going to concerts, and eating late-night ramen.',
-    // },
+    {
+      photo: aaron,
+      name: 'Aaron Mei',
+      description:
+        'Aaron Mei is a CIS major at Penn who enjoys playing video games and thinking about algorithms.',
+    },
+    {
+      photo: nick,
+      name: 'Nick Eiffert',
+      description:
+        'Nicholas Eiffert is a junior studying mathematics and computer science in CAS. He went to Bordentown Regional High School. He is a TA for a data structures and algorithms course at Penn. He likes doing competitive programming, going to concerts, and eating late-night ramen.',
+    },
     {
       photo: kevin,
       name: 'Kevin Liu',
