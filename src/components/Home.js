@@ -13,7 +13,7 @@ function Home() {
         <Alert variant="success" onClose={() => setShow(false)} dismissible>
           <Heading fontSize={"xl"}>🚨REMINDER🚨</Heading>
           {/* <p>PClassic's 2024 Fall competition is on Nov. 23, 2024.  Registration is now open: <u><a href="https://forms.gle/kqK7C8gsYfMu4yMQ6">HERE</a></u></p> */}
-          <p>PClassic will be happening in spring 2025!  Stay tuned for a contest day poll.  The dates will all be on April weekends (minus Easter).</p>
+          <p>PClassic will be happening in spring 2025, on Saturday, April 12.  Registration will open soon!</p>
           {/* <p><u><a href="https://forms.gle/H7PuzQKDHjZUoQt69">Feedback</a></u></p>
           <p>
             <u><a href="https://rebrand.ly/pcl24FAclassic">Classic Competition</a></u>—
