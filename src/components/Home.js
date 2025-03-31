@@ -13,6 +13,7 @@ function Home() {
         <Alert variant="success" onClose={() => setShow(false)} dismissible>
           <Heading fontSize={"xl"}>🚨REMINDER🚨</Heading>
           <p>PClassic's 2025 Spring competition is on April 26.  Registration is now open: <u><a href="https://forms.gle/HhWooxpQZGUgiX2VA">HERE</a></u></p>
+          <p>Please note that for this contest, it will be *online* via codeforces.</p>
           {/* <p><u><a href="https://forms.gle/H7PuzQKDHjZUoQt69">Feedback</a></u></p>
           <p>
             <u><a href="https://rebrand.ly/pcl24FAclassic">Classic Competition</a></u>—
