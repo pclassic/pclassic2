@@ -19,7 +19,7 @@ function Home() {
           <p>
             <u><a href="">Classic Competition (TBA)</a></u>—
             <u><a href="">Advanced Competition (TBA)</a></u>—
-            <u><a href="PClassic Spring 2025 Clarifications">Clarifications Document</a></u>
+            <u><a href="https://docs.google.com/document/d/13bQZwGCPMLHEZ092xTrCw2RV_SV_PhDV0q5Cx_aPAKE/edit?usp=sharing">Clarifications Document</a></u>
           </p>
         </Alert>
       );
