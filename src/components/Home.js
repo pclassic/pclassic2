@@ -15,11 +15,12 @@ function Home() {
           <p>PClassic's 2025 Spring competition is TODAY! <u><a href="https://upenn.zoom.us/j/98306393683?pwd=ij1lh5zvy1vIbpDNhKN4LvXdCHuZOp.1">Opening Ceremony</a></u></p>
           <p>Test out codeforces I/O: <u><a href="https://codeforces.com/contests/606564">Q0</a></u></p>
           <p>Please note that for this contest, it will be *online* via codeforces.  The contest links will be sent by email and updated here.</p>
-          {/* <p><u><a href="https://forms.gle/H7PuzQKDHjZUoQt69">Feedback</a></u></p>
+          {/* <p><u><a href="https://forms.gle/H7PuzQKDHjZUoQt69">Feedback</a></u></p> */}
           <p>
-            <u><a href="https://rebrand.ly/pcl24FAclassic">Classic Competition</a></u>—
-            <u><a href="https://rebrand.ly/pcl24FAadvanced">Advanced Competition</a></u>
-          </p> */}
+            <u><a href="">Classic Competition (TBA)</a></u>—
+            <u><a href="">Advanced Competition (TBA)</a></u>—
+            <u><a href="">Clarifications Document (TBA)</a></u>
+          </p>
         </Alert>
       );
     }
