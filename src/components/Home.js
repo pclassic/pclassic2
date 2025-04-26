@@ -17,8 +17,8 @@ function Home() {
           <p>Please note that for this contest, it will be *online* via codeforces.  The contest links will be sent by email and updated here.</p>
           {/* <p><u><a href="https://forms.gle/H7PuzQKDHjZUoQt69">Feedback</a></u></p> */}
           <p>
-            <u><a href="">Classic Competition (TBA)</a></u>—
-            <u><a href="">Advanced Competition (TBA)</a></u>—
+            <u><a href="https://tinyurl.com/pclassic-s25-contest-classic">Classic Competition (TBA)</a></u>—
+            <u><a href="https://tinyurl.com/pclassic-s25-contest-advanced ">Advanced Competition (TBA)</a></u>—
             <u><a href="https://docs.google.com/document/d/13bQZwGCPMLHEZ092xTrCw2RV_SV_PhDV0q5Cx_aPAKE/edit?usp=sharing">Clarifications Document</a></u>
           </p>
         </Alert>
