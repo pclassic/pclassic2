@@ -12,10 +12,15 @@ function Home() {
       return (
         <Alert variant="success" onClose={() => setShow(false)} dismissible>
           <Heading fontSize={"xl"}>🚨REMINDER🚨</Heading>
-          <p>
-            PClassic's 2025 Fall competition is in the works.
-            We will notify via the mailing list if it is happening and whether it is virtual/in-person.
-          </p>
+          <p>PClassic's 2025 Fall competition is in the works.  We will notify via the mailing list if it is happening and whether it is virtual/in-person.</p>
+          {/* <p>PClassic's 2025 Spring competition is TODAY! <u><a href="https://upenn.zoom.us/j/98306393683?pwd=ij1lh5zvy1vIbpDNhKN4LvXdCHuZOp.1">Opening Ceremony & Help Desk</a></u></p> */}
+          {/* <p>Test out codeforces I/O: <u><a href="https://codeforces.com/contestInvitation/894d62d32e2a84d358c5977fbe3c28e121ad2b27">Q0</a></u></p> */}
+          {/* <p><u><a href="https://forms.gle/H7PuzQKDHjZUoQt69">Feedback</a></u></p> */}
+          {/* <p> */}
+          {/* <u><a href="https://tinyurl.com/pclassic-s25-contest-classic">Classic Competition (TBA)</a></u>— */}
+          {/* <u><a href="https://tinyurl.com/pclassic-s25-contest-advanced ">Advanced Competition (TBA)</a></u>— */}
+          {/* <u><a href="https://docs.google.com/document/d/13bQZwGCPMLHEZ092xTrCw2RV_SV_PhDV0q5Cx_aPAKE/edit?usp=sharing">Clarifications Document</a></u> */}
+          {/* </p> */}
         </Alert>
       );
     }
