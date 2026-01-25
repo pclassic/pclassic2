@@ -27,6 +27,9 @@ import grace from './past/grace.jpg';
 import hemosoo from './past/hemosoo.jpg';
 import michaelli from "./past/michaelli.jpg";
 
+import ziwen from "./past/ziwen.jpg";
+import tien from "./past/tien.jpg";
+
 function PastOrganizers() {
     const organizers = [
         // {photo: , name: "", description: ""}, // 
@@ -39,6 +42,7 @@ function PastOrganizers() {
         {photo: michelle, name: "Michelle Chang", description: ""}, // Michelle Chang is a sophomore studying CS. She likes web development, K-Pop dancing, and running
         {photo: steven, name: "Steven Chang", description: ""}, // Steven Chang is a freshman studying computer science from Myanmar. In high school, he participated in math olympiads and volunteering activities. Some of his hobbies are watching K-Dramas, playing chess, and solving the Rubik's cube.
         {photo: ben, name: "Benjamin Le", description: ""}, // Benjamin Le is a sophomore studying comdputer science in SEAS. He enjoys learning mathematics and solving interesting problems. In his free time, he likes to read and play video games.
+        {photo: ziwen, name: "Ziwen Hou", description: ""},
         {photo: brian, name: "Brian Chen", description: ""}, // Brian Chen is a master's student studying computer science. He studied computational biology and computer science as an undergraduate. He enjoys playing basketball, solving Rubik's cubes, and learning about languages.
         {photo: ani, name: "Ani Machaidze", description: "Ani Machaidze is a senior studying Computer Science with a minor in Engineering Entrepreneurship. She is from Tbilisi, Georgia. During high-school she competed in several national programming competitions in Georgia. In her free time, she enjoys photography, playing ping-pong, and watching TV shows."},
         {photo: brandon, name: "Brandon Lin", description: "Brandon Lin was a 2020 alumni who studied computer science and data science in SEAS. He likes coding in Python and learning about mathematics and enjoys solving Rubik's Cubes, singing & playing music, and making origami."},
@@ -49,6 +53,7 @@ function PastOrganizers() {
         {photo: stephanie, name: "Stephanie Shi", description: "Stephanie Shi was a 2020 alumni who studied Computer Science and Statistics in the Jerome Fisher Program in Management and Technology. Stephanie was a TA for CIS 160, one of Penn’s introductory computer science classes, and the Education Chair for Hack4Impact. Stephanie is passionate about design, math, and instant ramen."},
         {photo: vatsin, name: "Vatsin Suchak", description: "Vatsin Suchak is a senior at Penn, currently studying computer science and math. He is a TA for a discrete math course at Penn, CIS 160. He also enjoys watching motorsports, playing the guitar, and loves dogs."},
         {photo: meggie, name: "Meggie Cheng", description: "Meggie Cheng is a senior in Digital Media Design in SEAS. She was born in NYC but was raised in Houston, Texas and went to Cypress Woods High School. Her hobbies include competitive programming (did in high school), digital painting, reading webtoons."},
+        {photo: tien, name: "Tien Pham", description: ""},
         {photo: james, name: "James Hu", description: "James Hu was a 2020 alumni who studied Computer Science with minors in Mathematics and Statistics. He was on the Penn rugby team. He also enjoys camping, skateboarding, and playing video games with friends."},
         {photo: ying, name: "Yingxuan Eng", description: "Yingxuan Eng is a senior studying computer science in SEAS. He enjoys mathematics as well as writing code to solve problems from various disciplines. In his free time, he likes to read, binge-watch TV series, and play Smash."},
       ];
