@@ -13,7 +13,7 @@ function Home() {
         <Alert variant="success" onClose={() => setShow(false)} dismissible>
           <Heading fontSize={"xl"}>🚨REMINDER🚨</Heading>
           <p>
-            PClassic's 2025 Fall competition is in the works.
+            PClassic's 2026 Spring competition is in the works.
             We will notify via the mailing list if it is happening and whether it is virtual/in-person.
           </p>
         </Alert>
