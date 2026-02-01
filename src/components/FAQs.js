@@ -20,8 +20,8 @@ function FAQs() {
         <Accordion.Body>
         *NOTE:* For the spring 2025 contest, the contest will be online via codeforces; NOT at UPenn campus.
 
-        The PClassic Competition takes place at 107 Towne Bldg, Philadelphia, PA 19104. To enter, come 
-        to Levine Hall.  Look for big glass doors; these will be the only ones unlocked.
+        If hosted in-person, the PClassic Competition usually takes place at the Towne Building, Philadelphia, PA 19104. To enter, come 
+        to Levine Hall. Look for big glass doors; these will be the only ones unlocked.
         <center><img
           src={entrancemap}
           alt="Contest Entrance Map"
