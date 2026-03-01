@@ -75,6 +75,21 @@ function Problems() {
         </thead>
         <tbody>
           <tr>
+            <td>2025</td>
+            <td>N/A</td>
+            <td>N/A</td>
+            <td>
+              <Download pdf='problems/PClassic2025sProblems.pdf' name="2025S Problems">
+                {' '}
+              </Download>{' '}
+            </td>
+            <td>
+              <Download pdf='solutions/PClassic2025sSolutions.zip' name="2025S Solutions">
+                {' '}
+              </Download>{' '}
+            </td>
+          </tr>
+          <tr>
             <td>2024</td>
             <td>
               <Download pdf={P2024f} name="2024F Problems">
@@ -87,16 +102,14 @@ function Problems() {
               </Download>{' '}
             </td>
             <td>
-              Coming Soon!
-              {/* <Download pdf={P2024s} name="2024S Problems">
+              <Download pdf='problems/PClassic2024sProblems.pdf' name="2024S Problems">
                 {' '}
-              </Download>{' '} */}
+              </Download>{' '}
             </td>
             <td>
-              Coming Soon!
-              {/* <Download pdf={S2024s} name="2024S Solutions">
+              <Download pdf='solutions/PClassic2024sSolutions.zip' name="2024S Solutions">
                 {' '}
-              </Download>{' '} */}
+              </Download>{' '}
             </td>
           </tr>
           <tr>
