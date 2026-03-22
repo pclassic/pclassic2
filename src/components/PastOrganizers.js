@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Nav from 'react-bootstrap/Nav';
 import { LinkContainer } from 'react-router-bootstrap';
-import { Heading } from '@chakra-ui/react';
+import { Heading, Text } from '@chakra-ui/react';
 import organizers from './pastOrganizersData.json';
 
 function PastOrganizers() {
@@ -19,6 +19,10 @@ function PastOrganizers() {
           <u>Current Organizers</u>
         </Nav.Link>
       </LinkContainer>
+      <Text fontSize={"sm"} color={"#566573"} style={{ padding: '0 90px' }}>
+        If you were an organizer and aren't listed here, please email us at{' '}
+        <a href="mailto:organizers@pclassic.org">organizers@pclassic.org</a>.
+      </Text>
       <Row xs={1} md={3} className="g-6" style={{ padding: '10px 90px' }}>
         {organizers.map((organizer) => (
           <Col key={organizer.name}>
