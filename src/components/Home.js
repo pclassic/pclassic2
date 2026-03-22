@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Bar from '../Bar';
 import Alert from 'react-bootstrap/Alert';
 import { Box, Text, Container, Heading, Divider } from '@chakra-ui/react';
@@ -13,10 +13,19 @@ function Home() {
     if (show) {
       return (
         <Alert variant="success" onClose={() => setShow(false)} dismissible>
-          <Heading fontSize={"xl"}>🚨ATTENTION!🚨</Heading>
+          <Heading fontSize={"xl"}>🚨SPRING 2026 IS ON!🚨</Heading>
           <p>
-            We're on for Spring 2026! Please see the sign up form 
-            <a id="signUpLink" title="Sign Up Link" href={SP26_SIGN_UP_LINK} rel="noreferrer noopener nofollow">here</a>!
+            We're hosting the Spring 2026 PClassic competition! Please sign up&nbsp;
+            <a 
+              id="signUpLink"
+              title="Sign Up Link"
+              href={SP26_SIGN_UP_LINK}
+              rel="noreferrer noopener nofollow"
+              class='underline'
+            >
+              here
+            </a>
+            !
           </p>
         </Alert>
       );
