@@ -1,0 +1,184 @@
+[
+  {
+    "year": 2025,
+    "fall": null,
+    "spring": {
+      "problems": { "pdf": "problems/PClassic2025sProblems.pdf", "name": "2025S Problems" },
+      "solutions": { "pdf": "solutions/PClassic2025sSolutions.zip", "name": "2025S Solutions" }
+    }
+  },
+  {
+    "year": 2024,
+    "fall": {
+      "problems": { "pdf": "problems/PClassic2024fProblems.pdf", "name": "2024F Problems" },
+      "solutions": { "pdf": "solutions/PClassic2024fSolutions.zip", "name": "2024F Solutions" }
+    },
+    "spring": {
+      "problems": { "pdf": "problems/PClassic2024sProblems.pdf", "name": "2024S Problems" },
+      "solutions": { "pdf": "solutions/PClassic2024sSolutions.zip", "name": "2024S Solutions" }
+    }
+  },
+  {
+    "year": 2023,
+    "fall": {
+      "problems": { "pdf": "problems/PClassic2023fProblems.pdf", "name": "2023F Problems" },
+      "solutions": { "pdf": "solutions/PClassic2023fSolutions.zip", "name": "2023F Solutions" }
+    },
+    "spring": {
+      "problems": { "pdf": "problems/PClassic2023sProblems.pdf", "name": "2023S Problems" },
+      "solutions": { "pdf": "solutions/PClassic2023sSolutions.zip", "name": "2023S Solutions" }
+    }
+  },
+  {
+    "year": 2022,
+    "fall": {
+      "problems": { "pdf": "problems/PClassic2022fProblems.pdf", "name": "2022F Problems" },
+      "solutions": { "pdf": "solutions/PClassic2022fSolutions.zip", "name": "2022F Solutions" }
+    },
+    "spring": {
+      "problems": { "pdf": "problems/PClassic2022sProblems.pdf", "name": "2022S Problems" },
+      "solutions": { "pdf": "solutions/PClassic2022sSolutions.zip", "name": "2022S Solutions" }
+    }
+  },
+  {
+    "year": 2021,
+    "fall": {
+      "problems": { "pdf": "problems/PClassic2021fProblems.pdf", "name": "2021F Problems" },
+      "solutions": { "pdf": "solutions/PClassic2021fSolutions.zip", "name": "2021F Solutions" }
+    },
+    "spring": null
+  },
+  {
+    "year": 2019,
+    "fall": {
+      "problems": { "pdf": "problems/PClassic2019fProblems.pdf", "name": "2019F Problems" },
+      "solutions": { "pdf": "solutions/PClassic2019fSolutions.zip", "name": "2019F Solutions" }
+    },
+    "spring": {
+      "problems": { "pdf": "problems/PClassic2019sProblems.pdf", "name": "2019S Problems" },
+      "solutions": { "pdf": "solutions/PClassic2019sSolutions.zip", "name": "2019S Solutions" }
+    }
+  },
+  {
+    "year": 2018,
+    "fall": {
+      "problems": { "pdf": "problems/PClassic2018fProblems.pdf", "name": "2018F Problems" },
+      "solutions": { "pdf": "solutions/PClassic2018fSolutions.zip", "name": "2018F Solutions" }
+    },
+    "spring": {
+      "problems": { "pdf": "problems/PClassic2018sProblems.pdf", "name": "2018S Problems" },
+      "solutions": { "pdf": "solutions/PClassic2018sSolutions.zip", "name": "2018S Solutions" }
+    }
+  },
+  {
+    "year": 2017,
+    "fall": {
+      "problems": { "pdf": "problems/PClassic2017fProblems.pdf", "name": "2017F Problems" },
+      "solutions": { "pdf": "solutions/PClassic2017fSolutions.zip", "name": "2017F Solutions" }
+    },
+    "spring": {
+      "problems": { "pdf": "problems/PClassic2017sProblems.pdf", "name": "2017S Problems" },
+      "solutions": { "pdf": "solutions/PClassic2017sSolutions.zip", "name": "2017S Solutions" }
+    }
+  },
+  {
+    "year": 2016,
+    "fall": {
+      "problems": { "pdf": "problems/PClassic2016fProblems.pdf", "name": "2016F Problems" },
+      "solutions": { "pdf": "solutions/PClassic2016fSolutions.zip", "name": "2016F Solutions" }
+    },
+    "spring": {
+      "problems": { "pdf": "problems/PClassic2016sProblems.pdf", "name": "2016S Problems" },
+      "solutions": { "pdf": "solutions/PClassic2016sSolutions.zip", "name": "2016S Solutions" }
+    }
+  },
+  {
+    "year": 2015,
+    "fall": {
+      "problems": { "pdf": "problems/PClassic2015fProblems.pdf", "name": "2015F Problems" },
+      "solutions": { "pdf": "solutions/PClassic2015fSolutions.zip", "name": "2015F Solutions" }
+    },
+    "spring": {
+      "problems": { "pdf": "problems/PClassic2015sProblems.pdf", "name": "2015S Problems" },
+      "solutions": { "pdf": "solutions/PClassic2015sSolutions.zip", "name": "2015S Solutions" }
+    }
+  },
+  {
+    "year": 2014,
+    "fall": {
+      "problems": { "pdf": "problems/PClassic2014fProblems.pdf", "name": "2014F Problems" },
+      "solutions": { "pdf": "solutions/PClassic2014fSolutions.zip", "name": "2014F Solutions" }
+    },
+    "spring": {
+      "problems": { "pdf": "problems/PClassic2014sProblems.pdf", "name": "2014S Problems" },
+      "solutions": { "pdf": "solutions/PClassic2014sSolutions.zip", "name": "2014S Solutions" }
+    }
+  },
+  {
+    "year": 2013,
+    "fall": {
+      "problems": { "pdf": "problems/PClassic2013fProblems.pdf", "name": "2013F Problems" },
+      "solutions": { "pdf": "solutions/PClassic2013fSolutions.zip", "name": "2013F Solutions" }
+    },
+    "spring": {
+      "problems": { "pdf": "problems/PClassic2013sProblems.pdf", "name": "2013S Problems" },
+      "solutions": { "pdf": "solutions/PClassic2013sSolutions.zip", "name": "2013S Solutions" }
+    }
+  },
+  {
+    "year": 2012,
+    "fall": {
+      "problems": { "pdf": "problems/PClassic2012Problems.pdf", "name": "2012 Problems" },
+      "solutions": { "pdf": "solutions/PClassic2012TestCases.zip", "name": "2012 Test Cases" }
+    },
+    "spring": null
+  },
+  {
+    "year": 2011,
+    "fall": {
+      "problems": { "pdf": "problems/PClassic2011Problems.pdf", "name": "2011 Problems" },
+      "solutions": null
+    },
+    "spring": null
+  },
+  {
+    "year": 2010,
+    "fall": {
+      "problems": { "pdf": "problems/PClassic2010Problems.pdf", "name": "2010 Problems" },
+      "solutions": null
+    },
+    "spring": null
+  },
+  {
+    "year": 2009,
+    "fall": {
+      "problems": { "pdf": "problems/PClassic2009Problems.pdf", "name": "2009 Problems" },
+      "solutions": null
+    },
+    "spring": null
+  },
+  {
+    "year": 2008,
+    "fall": {
+      "problems": { "pdf": "problems/PClassic2008Problems.pdf", "name": "2008 Problems" },
+      "solutions": null
+    },
+    "spring": null
+  },
+  {
+    "year": 2007,
+    "fall": {
+      "problems": { "pdf": "problems/PClassic2007Problems.pdf", "name": "2007 Problems" },
+      "solutions": null
+    },
+    "spring": null
+  },
+  {
+    "year": 2001,
+    "fall": {
+      "problems": { "pdf": "problems/PClassic2001Problems.pdf", "name": "2001 Problems" },
+      "solutions": null
+    },
+    "spring": null
+  }
+]
