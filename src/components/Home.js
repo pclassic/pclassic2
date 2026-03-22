@@ -9,10 +9,11 @@ const SP26_SIGN_UP_LINK = "https://docs.google.com/forms/d/e/1FAIpQLSfOndxUKV_YU
 
 function Home() {
   const [show, setShow] = useState(true);
-  function AlertDismissibleExample() {
-    if (show) {
-      return (
-        <Alert variant="success" onClose={() => setShow(false)} dismissible>
+
+  return (
+    <main>
+      <Bar />
+      {show && <Alert variant="success" onClose={() => setShow(false)} dismissible>
           <Heading fontSize={"xl"}>🚨SPRING 2026 IS ON!🚨</Heading>
           <p>
             We're hosting the Spring 2026 PClassic competition! Please sign up&nbsp;
@@ -27,16 +28,7 @@ function Home() {
             </a>
             !
           </p>
-        </Alert>
-      );
-    }
-    return <></>;
-  }
-
-  return (
-    <div>
-      <Bar />
-      <AlertDismissibleExample />
+        </Alert>}
 
       <Container maxW={"4xl"}>
         <Heading my={6} fontSize={"5xl"} color={"#252627"}>The Philadelphia Classic</Heading>
@@ -61,8 +53,7 @@ function Home() {
       </Container>
       <Divider />
       <FAQs />
-
-    </div>
+    </main>
   );
 }
 
