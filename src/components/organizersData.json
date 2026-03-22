@@ -1,0 +1,35 @@
+[
+  {
+    "photo": "organizer_profile_images/michael.jpg",
+    "name": "Michael Gao",
+    "coLead": true,
+    "description": "\"I am a junior studying computer science.  I like (in decreasing order of skill) wasting time, video games, badminton, playing piano, and poker.\""
+  },
+  {
+    "photo": "organizer_profile_images/kurtis.png",
+    "name": "Kurtis Zhang",
+    "coLead": true,
+    "description": "Kurtis is a freshman studying Computer Science at UPenn. Outside of school he enjoys skiing, playing piano and watching football."
+  },
+  {
+    "photo": "organizer_profile_images/ntarsis.jpg",
+    "name": "Nicholas Tarsis",
+    "coLead": true,
+    "description": "\"I bench 315.\""
+  },
+  {
+    "photo": "p.jpg",
+    "name": "Shaan Keole",
+    "description": ""
+  },
+  {
+    "photo": "p.jpg",
+    "name": "Eric Zou",
+    "description": ""
+  },
+  {
+    "photo": "p.jpg",
+    "name": "Pragya Singh",
+    "description": ""
+  }
+]
