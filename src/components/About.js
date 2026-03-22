@@ -3,7 +3,6 @@ import Bar from '../Bar';
 import Card from 'react-bootstrap/Card';
 import { Row, Col } from 'react-bootstrap';
 import Info from '../pdfs/info.pdf';
-import Waiver from '../pdfs/waiver.pdf';
 import './About.css';
 import FadeInSection from './FadeInSection';
 import Floor1 from './images/EngineeringMapF1.png';
@@ -76,7 +75,7 @@ function About() {
           <Row>
             {/* off set will middle the col */}
             <Col>
-              <iframe style={{ width: '100%', height: '600px' }} src={Waiver}>
+              <iframe style={{ width: '100%', height: '600px' }} title="Waiver" src={"waiver.pdf"}>
                 {' '}
               </iframe>
             </Col>
