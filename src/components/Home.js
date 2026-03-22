@@ -38,6 +38,7 @@ function Home() {
           Prizes and awards are given out to the top scoring teams, and registration for the competition is free for all high schools.
           We will be allowing middle school students to participate in the competition as well!</Text>
         <Text fontSize={"lg"} color={"#566573"} fontFamily={`'Lato', sans-serif;`}>EMAIL: organizers@pclassic.org</Text>
+        <Text fontSize={"lg"} color={"#566573"} fontFamily={`'Lato', sans-serif;`}>MAILING LIST:&nbsp;<a href="http://eepurl.com/bau2Db" class='underline' target="_blank" rel="noreferrer noopener nofollow">Join</a></Text>
 
         <Photos />
       </Container>

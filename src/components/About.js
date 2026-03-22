@@ -24,8 +24,8 @@ function About() {
         </Card.Header>
         <Card.Text style={{ padding: '20px' }}>
           <Text fontSize={"lg"} color={"#566573"} fontFamily={`'Lato', sans-serif;`}>
-          The Philadelphia Classic (PClassic) is a semesterly programming competition for high
-          school students hosted by PClassic (the club!) at the University of Pennsylvania. Prizes
+          The Philadelphia Classic (PClassic) is a programming competition for high
+          school students hosted by the PClassic club at the University of Pennsylvania. Prizes
           and awards are given out to the top scoring teams, and registration for the competition
           is free for all high schools. We will be allowing middle school students to participate
           in the competition as well!
@@ -37,15 +37,14 @@ function About() {
 
       <Card className="fade-in2" style={{ margin: '50px 120px' }}>
         <Card.Header>
-          <Heading fontSize={"3xl"} mt={2} fontWeight={"400"}>🗓️ PClassic Spring 2025 Details</Heading>
+          <Heading fontSize={"3xl"} mt={2} fontWeight={"400"}>🗓️ Spring 2026 Details</Heading>
         </Card.Header>
         <Card.Text>
           <Text fontSize={"lg"} color={"#566573"} fontFamily={`'Lato', sans-serif;`}>
-            Contest Date: Saturday, April 26, 2025
+            Contest Date: Saturday, April 25, 2026
           </Text>
           <Text fontSize={"lg"} color={"#566573"} fontFamily={`'Lato', sans-serif;`}>
-            Location: online (on Codeforces)
-            {/* Location: University of Pennsylvania Engineering Quad */}
+            Location: University of Pennsylvania Engineering Quad
           </Text>
         </Card.Text>
         {/*<Card.Text>
