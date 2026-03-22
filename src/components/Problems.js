@@ -27,20 +27,20 @@ function Problems() {
         <thead>
           <tr>
             <th>Year</th>
-            <th>Fall Problems 🍂</th>
-            <th>Fall Solutions 🍂</th>
             <th>Spring Problems 🌷</th>
             <th>Spring Solutions 🌷</th>
+            <th>Fall Problems 🍂</th>
+            <th>Fall Solutions 🍂</th>
           </tr>
         </thead>
         <tbody>
           {problemsData.map(({ year, fall, spring }) => (
             <tr key={year}>
               <td>{year}</td>
-              <Cell entry={fall?.problems} />
-              <Cell entry={fall?.solutions} />
               <Cell entry={spring?.problems} />
               <Cell entry={spring?.solutions} />
+              <Cell entry={fall?.problems} />
+              <Cell entry={fall?.solutions} />
             </tr>
           ))}
         </tbody>
