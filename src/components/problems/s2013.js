@@ -41,7 +41,7 @@ The scoreboard is up <a href="https://docs.google.com/document/d/1tAEz1Up4cUJpJh
 
 <br />
 
-This year's question set is <a href="/files/problems/PClassic2013sProblems.pdf">online</a> and the test cases and solutions are available <a href="/files/problems/PClassic2013sSolutions.zip">as a zip file</a>.
+This year's question set is <a href="/problems/PClassic2013sProblems.pdf">online</a> and the test cases and solutions are available <a href="/solutions/PClassic2013sSolutions.zip">as a zip file</a>.
 </p>
 
     </div>

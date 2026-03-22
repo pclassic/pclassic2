@@ -21,7 +21,7 @@ The top team in this Novice division was:
 <br />
 Congratulations to the winning teams! Prizes included trophies and free space on <a href="http://dropbox.com">Dropbox</a>! <br /><br/>
 
-This year's question set is <a href="/files/problems/PClassic2018sProblems.pdf">online</a> and the test cases and solutions are available as a zip file.
+This year's question set is <a href="/problems/PClassic2018sProblems.pdf">online</a> and the test cases and solutions are available as a zip file.
 <br />
 </p>
 

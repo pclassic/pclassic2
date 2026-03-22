@@ -26,7 +26,7 @@ Congratulations to the winning teams! Prizes included trophies and free space on
 You can view how many problems your team solved <a href="https://docs.google.com/spreadsheets/d/1emAC0vINNh1Xw8-fZxUDLajN5uQK23WTHI6S0qqbusA/pubhtml">here</a> (novice and non-novice teams are integrated so its not really a scoreboard). 
 <br /> <br />
 
-This year's question set is <a href="/files/problems/PClassic2015fProblems.pdf">online</a> and the test cases and solutions are available <a href="/files/problems/PClassic2015fSolutions.zip">as a zip file</a>.
+This year's question set is <a href="/problems/PClassic2015fProblems.pdf">online</a> and the test cases and solutions are available <a href="/solutions/PClassic2015fSolutions.zip">as a zip file</a>.
 <br />
 Pictures from the event are up on our <a href="https://www.facebook.com/pages/PClassic/157577100964142">Facebook page</a>.
 </p>

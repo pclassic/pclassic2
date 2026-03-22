@@ -47,7 +47,7 @@ In the novice division:
 <li>0 teams solved 7 questions</li>
 <li>1 team solved 8 questions</li>
 </ul>
-This year's question set is <a href="/files/problems/PClassic2016fProblems.pdf">online</a> and the test cases and solutions are available <a href="/files/problems/PClassic2016fSolutions.zip">as a zip file</a>.
+This year's question set is <a href="/problems/PClassic2016fProblems.pdf">online</a> and the test cases and solutions are available <a href="/solutions/PClassic2016fSolutions.zip">as a zip file</a>.
 <br />
 
     </div>

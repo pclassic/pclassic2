@@ -27,7 +27,7 @@ The scoreboard is up with all teams' results <a href="https://docs.google.com/sp
 <br /> <br />
 
 
-This semester's problem set is <a href="/files/problems/PClassic2014sProblems.pdf">online</a> and the test cases and solutions are available <a href="/files/problems/PClassic2014sSolutions.zip">as a zip file</a>.
+This semester's problem set is <a href="/problems/PClassic2014sProblems.pdf">online</a> and the test cases and solutions are available <a href="/solutions/PClassic2014sSolutions.zip">as a zip file</a>.
 </p>
 
     </div>

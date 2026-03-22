@@ -35,7 +35,7 @@ Congratulations to the winning teams! Prizes included trophies and free space on
 The complete scoreboard is up <a href="https://docs.google.com/spreadsheets/d/1-U7sA9zpt4_-GxcZDRvcKWjxAmv2TwXzxeir5DQXRDQ/edit?usp=sharing">here</a>, though the data only indicates number solved; tie breakers were hand-verified during the contest.
 <br /> <br />
 
-This year's question set is <a href="/files/problems/PClassic2015sProblems.pdf">online</a> and the test cases and solutions are available <a href="/files/problems/PClassic2015sSolutions.zip">as a zip file</a>.
+This year's question set is <a href="/problems/PClassic2015sProblems.pdf">online</a> and the test cases and solutions are available <a href="/solutions/PClassic2015sSolutions.zip">as a zip file</a>.
 <br />
 Pictures from the event are up on our <a href="https://www.facebook.com/pages/PClassic/157577100964142">Facebook page</a>.
 </p>

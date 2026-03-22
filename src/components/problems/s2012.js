@@ -70,7 +70,7 @@ Wissahickon (2)
 <br />
 <br />
 
-A copy of this year's questions (with errata incorporated) is up <a href="/files/problems/PClassic2012Problems.pdf">here</a>
+A copy of this year's questions (with errata incorporated) is up <a href="/problems/PClassic2012Problems.pdf">here</a>
 </p>
 
     </div>
