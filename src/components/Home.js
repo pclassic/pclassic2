@@ -5,16 +5,18 @@ import { Box, Text, Container, Heading, Divider } from '@chakra-ui/react';
 import Photos from './Photos';
 import FAQs from './FAQs';
 
+const SP26_SIGN_UP_LINK = "https://docs.google.com/forms/d/e/1FAIpQLSfOndxUKV_YUCvWFD7BctuM76Sjdf_5Gi9fqOvmK2xX1U9lRw/viewform?usp=publish-editor"
+
 function Home() {
   const [show, setShow] = useState(true);
   function AlertDismissibleExample() {
     if (show) {
       return (
         <Alert variant="success" onClose={() => setShow(false)} dismissible>
-          <Heading fontSize={"xl"}>🚨REMINDER🚨</Heading>
+          <Heading fontSize={"xl"}>🚨ATTENTION!🚨</Heading>
           <p>
-            PClassic's 2026 Spring competition is in the works.
-            We will notify via the mailing list if it is happening and whether it is virtual/in-person.
+            We're on for Spring 2026! Please see the sign up form 
+            <a id="signUpLink" title="Sign Up Link" href={SP26_SIGN_UP_LINK} rel="noreferrer noopener nofollow">here</a>!
           </p>
         </Alert>
       );
