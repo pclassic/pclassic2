@@ -7,64 +7,47 @@ import Nav from "react-bootstrap/Nav"
 import { LinkContainer } from 'react-router-bootstrap';
 import { Text, Heading } from '@chakra-ui/react';
 
-import nick from './images/Nick.JPG';
-import aaron from './images/Aaron.JPG';
 import michael from './images/michael.jpg';
-import kevin from './images/kevin.jpg';
-import aaronWu from "./images/aaronWu.jpg";
 import kurtis from "./images/kurtis.png";
-import jason from "./images/jason.png";
 import ntarsis from "./images/ntarsis.jpg";
 
 function Organizers() {
   const organizers = [
     {
       photo: michael,
-      name: 'Michael Gao (Co-Lead)',
+      name: 'Michael Gao',
+      coLead: true,
       description:
         "\"I am a junior studying computer science.  I like (in decreasing order of skill) wasting time, video games, badminton, playing piano, and poker.\"",
     },
     {
       photo: kurtis,
-      name: 'Kurtis Zhang (Co-Lead)',
+      name: 'Kurtis Zhang',
+      coLead: true,
       description:
         "Kurtis is a freshman studying Computer Science at UPenn. Outside of school he enjoys skiing, playing piano and watching football.",
     },
     {
-      photo: jason,
-      name: 'Jason Liu',
-      description:
-        "\"I do computer science.\"",
-    },
-    {
       photo: ntarsis,
       name: 'Nicholas Tarsis',
+      coLead: true,
       description:
         "\"I bench 315.\"",
     },
     {
-      photo: aaron,
-      name: 'Aaron Mei',
-      description:
-        'Aaron Mei is a CIS major at Penn who enjoys playing video games and thinking about algorithms.',
+      photo: process.env.PUBLIC_URL + '/p.jpg',
+      name: 'Shaan Keole',
+      description: '',
     },
     {
-      photo: nick,
-      name: 'Nick Eiffert',
-      description:
-        'Nicholas Eiffert is a junior studying mathematics and computer science in CAS. He went to Bordentown Regional High School. He is a TA for a data structures and algorithms course at Penn. He likes doing competitive programming, going to concerts, and eating late-night ramen.',
+      photo: process.env.PUBLIC_URL + '/p.jpg',
+      name: 'Eric Zou',
+      description: '',
     },
     {
-      photo: kevin,
-      name: 'Kevin Liu',
-      description:
-        "Kevin Liu is a sophomore studying CIS. He enjoys sleeping in on the weekends.",
-    },
-    {
-      photo: aaronWu,
-      name: 'Aaron Wu',
-      description:
-      "\"I watch anime.\"",
+      photo: process.env.PUBLIC_URL + '/p.jpg',
+      name: 'Pragya Singh',
+      description: '',
     },
   ];
 
@@ -88,7 +71,10 @@ function Organizers() {
                 src={organizer.photo}
               />
               <Card.Body>
-                <Card.Title><Heading fontSize={"lg"} fontWeight={"700"}>{organizer.name}</Heading></Card.Title>
+                <Card.Title>
+                  <Heading fontSize={"lg"} fontWeight={"700"}>{organizer.name}</Heading>
+                  {organizer.coLead && <Heading fontSize={"sm"} fontWeight={"400"} color={"#566573"}>Co-Lead</Heading>}
+                </Card.Title>
                   <Text color={"#566573"} textAlign={"left"} fontFamily={`'Lato', sans-serif;`}>
                     {organizer.description}
                   </Text>

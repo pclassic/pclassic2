@@ -30,9 +30,20 @@ import michaelli from "./past/michaelli.jpg";
 import ziwen from "./past/ziwen.jpg";
 import tien from "./past/tien.jpg";
 
+import jason from "./images/jason.png";
+import kevin from "./images/kevin.jpg";
+import aaron from "./images/Aaron.JPG";
+import nick from "./images/Nick.JPG";
+import aaronWu from "./images/aaronWu.jpg";
+
 function PastOrganizers() {
     const organizers = [
-        // {photo: , name: "", description: ""}, // 
+        // {photo: , name: "", description: ""}, //
+        {photo: jason, name: "Jason Liu", description: "\"I do computer science.\""},
+        {photo: kevin, name: "Kevin Liu", description: "Kevin Liu is a sophomore studying CIS. He enjoys sleeping in on the weekends."},
+        {photo: aaron, name: "Aaron Mei", description: "Aaron Mei is a CIS major at Penn who enjoys playing video games and thinking about algorithms."},
+        {photo: nick, name: "Nick Eiffert", description: "Nicholas Eiffert is a junior studying mathematics and computer science in CAS. He went to Bordentown Regional High School. He is a TA for a data structures and algorithms course at Penn. He likes doing competitive programming, going to concerts, and eating late-night ramen."},
+        {photo: aaronWu, name: "Aaron Wu", description: "\"I watch anime.\""},
         {photo: hemosoo, name: 'Hemosoo Woo', description: "(23fa-24sp)\nHemosoo is a freshman studying computer science at UPenn. In his free time, he enjoys playing sports such as soccer or basketball, hitting the gym, playing chess, and listening to music of all sorts of genres."},
         {photo: michaelli, name: 'Michael Li', description: "(24sp)\nMichael is a freshman studying CS with a focus in software development and full stack development. He's a UFC fan and always loves seeing an underdog win!"},
         {photo: ishaan, name: "Ishaan Lal", description: ""}, // Ishaan is a senior studying Computer Science. This is his sixth semester in the club and fourth as the co-lead. In his free time, he enjoys teaching, reading, and following chess.
