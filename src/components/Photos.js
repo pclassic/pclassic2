@@ -14,12 +14,12 @@ function Photos() {
     <div>
       <Carousel activeIndex={index} onSelect={handleSelect} style={{margin: "50px"}}>
       {arr.map((val, index) => (
-        <Carousel.Item key={index} height={"200px"}>
+        <Carousel.Item key={index}>
           <img
-            width={"200px"}
             className="d-block w-100"
             src={`/contest/p${val}.jpg`}
             alt={`Slide ${val}`}
+            style={{ height: '400px', objectFit: 'cover' }}
           />
         </Carousel.Item>
       ))}
