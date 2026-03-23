@@ -4,7 +4,6 @@ import Nav from "react-bootstrap/Nav"
 import Container from "react-bootstrap/Container";
 import { LinkContainer } from 'react-router-bootstrap';
 import { Heading } from '@chakra-ui/react';
-import "./App.css"
 
 const Bar = () => {
   return (
@@ -67,7 +66,15 @@ const Bar = () => {
               Contests
             </Nav.Link>
           </LinkContainer>
-          </Heading>
+        </Heading>
+
+        <Heading mt={1} color={"gray"} fontSize="md" fontWeight={"400"}>
+          <LinkContainer to="/contact">
+            <Nav.Link>
+              Contact
+            </Nav.Link>
+          </LinkContainer>
+        </Heading>
           {/*}
           <NavDropdown title="History">
             <NavDropdown.Item>

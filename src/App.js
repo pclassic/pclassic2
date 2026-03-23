@@ -6,6 +6,7 @@ import Problems from './components/Problems';
 import About from './components/About';
 import PastContests from './components/PastContests';
 import Parsing from './components/Parsing';
+import Contact from './components/Contact';
 import './App.css';
 
 //import Past Problems (SPRING)
@@ -52,6 +53,7 @@ function App() {
           <Route path="/parsing" element={<Parsing />} />
           <Route path="/past-organizers" element={<PastOrganizers />} />
           <Route path="/past-contests" element={<PastContests />} />
+          <Route path="/contact" element={<Contact />} />
 
           {/* ALL the routes for past problems */}
           <Route path="/2012s" element={<S2012/>} />

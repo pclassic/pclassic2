@@ -1,7 +1,7 @@
-import React from 'react'
 import Accordion from 'react-bootstrap/Accordion';
 import Card from 'react-bootstrap/Card';
-import { Heading } from '@chakra-ui/react';
+import { Heading, Link, Text } from '@chakra-ui/react';
+import { Link as ReactRouterLink } from 'react-router-dom';
 
 import entrancemap from "./images/entrancemap.png";
 
@@ -9,12 +9,16 @@ function FAQs() {
   return (
     <Card style={{margin: '50px 120px'}}>
       <Card.Header className="header">
-        <Heading fontWeight={"400"} fontSize={"3xl"} mt={1}>
-          🤔 Frequently Asked Questions
+        <Heading fontWeight={"400"} fontSize={"3xl"} mt={4}>
+          Frequently Asked Questions
         </Heading>
+        <Text fontSize={"lg"} color={"#566573"} fontFamily={`'Lato', sans-serif;`} className='mt-2'>
+          For more details, check the <Link 
+          className='underline' as={ReactRouterLink} href="/about">About</Link> page, or email us at&nbsp;
+        <a href="mailto:organizers@pclassic.org">organizers@pclassic.org</a>
+        </Text>
       </Card.Header>
-      <p>For more details, check the <a href="https://www.pclassic.org/about">"About"</a> page.</p>
-      <Accordion flush style={{margin: "40px"}}>
+      <Accordion flush >
       <Accordion.Item eventKey="0">
         <Accordion.Header>Where is the competition held?</Accordion.Header>
         <Accordion.Body>

@@ -1,5 +1,5 @@
 import React from 'react';
-import Bar from '../Bar';
+import Bar from './Bar';
 import ListGroup from 'react-bootstrap/ListGroup';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';

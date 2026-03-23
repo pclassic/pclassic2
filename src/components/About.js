@@ -1,5 +1,5 @@
 import React from 'react';
-import Bar from '../Bar';
+import Bar from './Bar';
 import Card from 'react-bootstrap/Card';
 import { Row, Col } from 'react-bootstrap';
 import Info from '../pdfs/info.pdf';

@@ -1,5 +1,5 @@
 import React from 'react';
-import Bar from '../Bar';
+import Bar from './Bar';
 import '../App.css';
 import Table from 'react-bootstrap/Table';
 import Container from 'react-bootstrap/Container';
