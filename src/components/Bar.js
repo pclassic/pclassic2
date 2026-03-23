@@ -55,7 +55,7 @@ const Bar = () => {
         <Heading mt={1} color={"gray"} fontSize="md" fontWeight={"400"}>
           <LinkContainer to="/parsing">
             <Nav.Link>
-              Parsing
+              Resources
             </Nav.Link>
           </LinkContainer>
         </Heading>

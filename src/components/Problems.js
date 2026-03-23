@@ -46,21 +46,6 @@ function Problems() {
         </tbody>
       </Table>
 
-      <Container style={{ padding: '30px 0px' }}>
-        <h2 className="header">Other Resources 📙</h2>
-        <a style={{ margin: '10px' }} href="https://codingcompetitions.withgoogle.com/codejam">
-          Google Code Jam
-        </a>
-        <a style={{ margin: '10px' }} href="https://usaco.guide/">
-          USACO
-        </a>
-        <a style={{ margin: '10px' }} href="https://hpecodewars.org/">
-          HP CodeWars
-        </a>
-        <a style={{ margin: '10px' }} href="https://projecteuler.net/archives">
-          Project Euler
-        </a>
-      </Container>
     </div>
   );
 }
