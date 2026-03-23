@@ -37,9 +37,9 @@ const Bar = () => {
         </Heading>
 
         <Heading mt={1} color={"gray"} fontSize="md" fontWeight={"400"}>
-          <LinkContainer to="/organizers">
+          <LinkContainer to="/logistics">
             <Nav.Link>
-              Organizers
+              Logistics
             </Nav.Link>
           </LinkContainer>
         </Heading>

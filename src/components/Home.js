@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Bar from './Bar';
 import Alert from 'react-bootstrap/Alert';
-import { Box, Text, Container, Heading, Divider, Link } from '@chakra-ui/react';
+import { Text, Container, Heading, Link } from '@chakra-ui/react';
 import Photos from './Photos';
 import FAQs from './FAQs';
 
@@ -50,17 +50,6 @@ function Home() {
         </Text>
         <Photos />
       </Container>
-      <Divider />
-      <Container maxW={"4xl"}>
-        <Box my={10}>
-          <Heading fontSize={"3xl"} fontWeight={"bold"}>History</Heading>
-          <Text fontSize={"lg"} color={"#566573"} fontFamily={`'Lato', sans-serif;`}>Founded in 1998, PClassic emerged as a competitive programming competition tailored for high schoolers organized by UPenn students.
-            Later on, PClassic introduced the Classic division for newer competitors.
-            Recently, attendance rate has risen to 300+ participants and organizers each event, making PClassic one of Pennsylvania's largest competitive programming competitions.
-          </Text>
-        </Box>
-      </Container>
-      <Divider />
       <FAQs />
     </main>
   );
