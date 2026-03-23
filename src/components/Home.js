@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Bar from './Bar';
 import Alert from 'react-bootstrap/Alert';
-import { Box, Text, Container, Heading, Divider } from '@chakra-ui/react';
+import { Box, Text, Container, Heading, Divider, Link } from '@chakra-ui/react';
 import Photos from './Photos';
 import FAQs from './FAQs';
 
@@ -37,9 +37,17 @@ function Home() {
           University of Pennsylvania. We host events semesterly for high school students.
           Prizes and awards are given out to the top scoring teams, and registration for the competition is free for all high schools.
           We will be allowing middle school students to participate in the competition as well!</Text>
-        <Text fontSize={"lg"} color={"#566573"} fontFamily={`'Lato', sans-serif;`}>EMAIL: organizers@pclassic.org</Text>
-        <Text fontSize={"lg"} color={"#566573"} fontFamily={`'Lato', sans-serif;`}>MAILING LIST:&nbsp;<a href="http://eepurl.com/bau2Db" class='underline' target="_blank" rel="noreferrer noopener nofollow">Join</a></Text>
-
+        <Text fontSize="lg" color="#566573" fontFamily="'Lato', sans-serif">
+          Stay up to date on contest announcements and other news by joining our{' '}
+          <Link
+            href="http://eepurl.com/bau2Db"
+            color="blue.500"
+            isExternal
+            rel="noreferrer noopener nofollow"
+            title="Mailing List Sign Up Link"
+          >mailing list.
+          </Link>
+        </Text>
         <Photos />
       </Container>
       <Divider />
