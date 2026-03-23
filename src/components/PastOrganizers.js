@@ -4,7 +4,6 @@ import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Nav from 'react-bootstrap/Nav';
-import { LinkContainer } from 'react-router-bootstrap';
 import { Heading, Text } from '@chakra-ui/react';
 import organizers from './pastOrganizersData.json';
 
@@ -14,11 +13,9 @@ function PastOrganizers() {
       <Bar />
       <br />
       <Heading fontSize={"3xl"} fontWeight={400}>Past Organizers 🧐</Heading>
-      <LinkContainer to="/organizers">
-        <Nav.Link>
-          <u>Current Organizers</u>
-        </Nav.Link>
-      </LinkContainer>
+      <Nav.Link href="/about#organizers">
+        <u>Current Organizers</u>
+      </Nav.Link>
       <Text fontSize={"sm"} color={"#566573"} style={{ padding: '0 90px' }}>
         If you were an organizer and aren't listed here, please email us at{' '}
         <a href="mailto:organizers@pclassic.org">organizers@pclassic.org</a>.

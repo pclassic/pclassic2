@@ -43,9 +43,9 @@ function About() {
         </Card.Text>
       </Card>
 
-        <Card style={{ margin: '50px 120px' }}>
+        <Card id="organizers" style={{ margin: '50px 120px' }}>
           <Card.Header>
-            <Heading fontSize={"3xl"} mt={2} fontWeight={"400"}>Meet the Organizers</Heading>
+            <Heading fontSize={"3xl"} mt={2} fontWeight={"400"}>Current Organizers</Heading>
           </Card.Header>
           <Card.Body>
             <LinkContainer to="/past-organizers">
