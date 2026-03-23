@@ -35,7 +35,7 @@ function Logistics() {
 
       <Card style={{ margin: '50px 120px' }}>
         <Card.Header>
-          <Heading fontSize={"3xl"} mt={2} fontWeight={"400"}>Rules and Guidelines</Heading>
+          <Heading fontSize={"3xl"} mt={2} fontWeight={"400"}>Rules and Guidelines (Out of Date)</Heading>
         </Card.Header>
         <Row>
           <Col>
@@ -61,7 +61,7 @@ function Logistics() {
 
       <Card style={{ margin: '50px 120px' }}>
         <Card.Header>
-          <Heading fontSize={"3xl"} mt={2} fontWeight={"400"}>Maps</Heading>
+          <Heading fontSize={"3xl"} mt={2} fontWeight={"400"}>Maps (Out of Date)</Heading>
         </Card.Header>
         <Carousel width="600px" slide={false} variant="dark">
           <Carousel.Item>
