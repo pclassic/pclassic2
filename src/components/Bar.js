@@ -63,7 +63,7 @@ const Bar = () => {
         <Heading mt={1} color={"gray"} fontSize="md" fontWeight={"400"}>
           <LinkContainer to="/past-contests">
             <Nav.Link>
-              Contests
+              Results
             </Nav.Link>
           </LinkContainer>
         </Heading>
