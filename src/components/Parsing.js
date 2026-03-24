@@ -39,6 +39,7 @@ function Parsing() {
           <ListGroup>
             <ListGroup.Item action href="https://codingcompetitions.withgoogle.com/codejam" target="_blank" rel="noreferrer noopener">Google Code Jam</ListGroup.Item>
             <ListGroup.Item action href="https://usaco.guide/" target="_blank" rel="noreferrer noopener">USACO</ListGroup.Item>
+            <ListGroup.Item action href="https://codeforces.com/" target="_blank" rel="noreferrer noopener">Codeforces</ListGroup.Item>
             <ListGroup.Item action href="https://hpecodewars.org/" target="_blank" rel="noreferrer noopener">HP CodeWars</ListGroup.Item>
             <ListGroup.Item action href="https://projecteuler.net/archives" target="_blank" rel="noreferrer noopener">Project Euler</ListGroup.Item>
           </ListGroup>

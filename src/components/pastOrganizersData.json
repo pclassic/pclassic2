@@ -1,6 +1,5 @@
 [
   { "photo": "organizer_profile_images/jason.png", "name": "Jason Liu", "description": "\"I do computer science.\"" },
-  { "photo": "organizer_profile_images/kevin.jpg", "name": "Kevin Liu", "description": "Kevin Liu is a sophomore studying CIS. He enjoys sleeping in on the weekends." },
   { "photo": "organizer_profile_images/Aaron.JPG", "name": "Aaron Mei", "description": "Aaron Mei is a CIS major at Penn who enjoys playing video games and thinking about algorithms." },
   { "photo": "organizer_profile_images/Nick.JPG", "name": "Nick Eiffert", "description": "Nicholas Eiffert is a junior studying mathematics and computer science in CAS. He went to Bordentown Regional High School. He is a TA for a data structures and algorithms course at Penn. He likes doing competitive programming, going to concerts, and eating late-night ramen." },
   { "photo": "organizer_profile_images/aaronWu.jpg", "name": "Aaron Wu", "description": "\"I watch anime.\"" },
