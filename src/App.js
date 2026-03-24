@@ -7,6 +7,7 @@ import PastContests from './components/PastContests';
 import Parsing from './components/Parsing';
 import Contact from './components/Contact';
 import Logistics from './components/Logistics';
+import PrivacyPolicy from './components/PrivacyPolicy';
 import './App.css';
 
 //import Past Problems (SPRING)
@@ -54,6 +55,7 @@ function App() {
           <Route path="/past-contests" element={<PastContests />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/logistics" element={<Logistics />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
 
           {/* ALL the routes for past problems */}
           <Route path="/2012s" element={<S2012/>} />
@@ -78,6 +80,12 @@ function App() {
 
           <Route path="*" element={<NotFound />} />
         </Routes>
+
+        <footer className="site-footer">
+          <span>Philadelphia Classic</span>
+          <span className="footer-separator">|</span>
+          <Link to="/privacy-policy" className="footer-link">Privacy Policy</Link>
+        </footer>
       </Router>
 
     </div>
