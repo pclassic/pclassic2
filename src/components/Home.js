@@ -16,17 +16,17 @@ function Home() {
       {show && <Alert variant="success" onClose={() => setShow(false)} dismissible>
           <Heading fontSize={"xl"}>🚨SPRING 2026 IS CANCELLED!🚨</Heading>
           <p>
-            // We're hosting the Spring 2026 PClassic competition! Please sign up&nbsp;
-            // <a 
-            //   id="signUpLink"
-            //   title="Sign Up Link"
-            //   href={SP26_SIGN_UP_LINK}
-            //   rel="noreferrer noopener nofollow"
-            //   class='underline'
-            // >
-            //   here
-            // </a>
-            // !
+  {/*We're hosting the Spring 2026 PClassic competition! Please sign up&nbsp;
+            <a 
+              id="signUpLink"
+              title="Sign Up Link"
+              href={SP26_SIGN_UP_LINK}
+              rel="noreferrer noopener nofollow"
+              class='underline'
+            >
+              here
+            </a>
+            !*/}
             Due to logistical concerns, the Spring 2026 PClassic Competition has been cancelled. See you in the fall!
           </p>
         </Alert>}
